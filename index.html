@@ -1,122 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>PG-ecom - E-learning platform for Haitians</title>
-    <link rel="shortcut icon" type="image/png" href="./images/pg-logo.png" />
-    <link rel="icon" type="image/png" href="./images/pg-logo.png" />
 
-    <!-- OpenGraph SEO meta tags -->
-    <meta content="E-learning platform for Haitians" name="description" />
-    <meta
-      content="pg-ecom, haiti, e-learning, ecommerce, shopify, woocommerce, facebook & google ads, traning, courses, amazon"
-      name="keywords"
-    />
-    <!-- <meta content="images/banner.jpg" property="og:image"> -->
-    <meta
-      content="PG-ecom has trained over 1,200 people in how to launch and manage successful online businesses"
-      property="og:title"
-    />
-    <meta content="website" property="og:type" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>PG-ecom - E-learning platform for Haitians</title>
+  <link rel="shortcut icon" type="image/png" href="./images/pg-logo.png" />
+  <link rel="icon" type="image/png" href="./images/pg-logo.png" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!-- Font awesome CSS -->
-    <link rel="stylesheet" href="./css/all.css" />
-    <!-- Circular-std CSS -->
-    <link rel="stylesheet" href="./css/circular-std.css" />
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Contact js -->
-    <script src="js/validate.js"></script>
-    <script src="js/contact.js"></script>
-    <!-- Start of HubSpot Embed Code -->
-    <script
-      type="text/javascript"
-      id="hs-script-loader"
-      async
-      defer
-      src="//js.hs-scripts.com/9147866.js"
-    ></script>
-    <!-- End of HubSpot Embed Code -->
-    <!-- Start of HubSpot Embed Code -->
-    <script
-      type="text/javascript"
-      id="hs-script-loader"
-      async
-      defer
-      src="//js.hs-scripts.com/9147866.js"
-    ></script>
-    <!-- End of HubSpot Embed Code -->
-    <!-- Global site tag (gtag.js) - Google Ads: 699508611 -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-699508611"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script src="./templatesCompiled.js"></script>
-    <script src="./partialsCompiled.js"></script>
-    <!-- <script src="./partials/index.js"></script> -->
-    <script>
-      // compile the template
-      const container = document.querySelector("body");
+  <!-- OpenGraph SEO meta tags -->
+  <meta content="E-learning platform for Haitians" name="description" />
+  <meta
+    content="pg-ecom, haiti, e-learning, ecommerce, shopify, woocommerce, facebook & google ads, traning, courses, amazon"
+    name="keywords" />
+  <!-- <meta content="images/banner.jpg" property="og:image"> -->
+  <meta content="PG-ecom has trained over 1,200 people in how to launch and manage successful online businesses"
+    property="og:title" />
+  <meta content="website" property="og:type" />
 
-      const client = contentful.createClient({
-        space: "uxvf16b9r1b4",
-        accessToken: "o7uWlKR7V52YcUBvYtlE_9XTtWlHE5TcS1MXdMMDSX8",
-        linking_field: 'fields.image_url.sys.id'
-      });
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!-- Font awesome CSS -->
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- Circular-std CSS -->
+  <link rel="stylesheet" href="./css/circular-std.css" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-      window.onload = function () {
+<body>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Contact js -->
+  <script src="js/validate.js"></script>
+  <script src="js/contact.js"></script>
+  <!-- Start of SleekFlow Embed Code -->
+  <script src="https://chat.sleekflow.io/embed_iframe.js" data-id="travischatwidget"
+    data-companyid="c84788f1-a1e0-457b-902f-3e17e2127257" type="text/javascript">
+    </script>
+  <!-- End of SleekFlow Embed Code -->
+  <!-- Global site tag (gtag.js) - Google Ads: 699508611 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-699508611"></script>
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="./templatesCompiled.js"></script>
+  <script src="./partialsCompiled.js"></script>
+  <!-- <script src="./partials/index.js"></script> -->
+  <script>
+    // compile the template
+    const container = document.querySelector("body");
 
-        client
-          .getEntries({
-            content_type: "course",
-          })
-          .then((entries) => {
-            const courses = entries.items.map((course) => {
-              const fields = course.fields;
-              const image = fields.image_url;
+    const client = contentful.createClient({
+      space: "uxvf16b9r1b4",
+      accessToken: "o7uWlKR7V52YcUBvYtlE_9XTtWlHE5TcS1MXdMMDSX8",
+      linking_field: 'fields.image_url.sys.id'
+    });
 
-              return {
-                ...course.fields,
-                image_url: 'https:' + image.fields.file.url
-              };
-            });
+    window.onload = function () {
 
-            const context = {
-              isPageHome: true,
-              list_courses: courses,
+      client
+        .getEntries({
+          content_type: "course",
+        })
+        .then((entries) => {
+          const courses = entries.items.map((course) => {
+            const fields = course.fields;
+            const image = fields.image_url;
+
+            return {
+              ...course.fields,
+              image_url: 'https:' + image.fields.file.url
             };
-            const header = Handlebars.templates.home(context);
-            container.innerHTML = header;
-
-
-          })
-          .catch((error) => {
-            console.log("Entries: ", error);
           });
-      };
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "AW-699508611");
-    </script>
-  </body>
+          const context = {
+            isPageHome: true,
+            list_courses: courses,
+          };
+          const header = Handlebars.templates.home(context);
+          container.innerHTML = header;
+
+
+        })
+        .catch((error) => {
+          console.log("Entries: ", error);
+        });
+    };
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "AW-699508611");
+  </script>
+</body>
+
 </html>
