@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/accimeesterlin/pg-ecom-landing-page/issues"
   },
-  "homepage": "https://github.com/accimeesterlin/pg-ecom-landing-page#readme"
+  "homepage": "https://github.com/accimeesterlin/pg-ecom-landing-page#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
 }
