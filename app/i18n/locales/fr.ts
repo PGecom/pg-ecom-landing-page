@@ -590,7 +590,7 @@ export const fr: Translations = {
     students: {
       sectionLabel: "Pour les étudiants",
       heading: "Une expérience d'apprentissage agréable",
-      description: "Les étudiants bénéficient d'une expérience d'apprentissage personnalisée et engageante avec des outils qui les aident à rester sur la bonne voie.",
+      description: "Offrez à vos étudiants une expérience d'apprentissage personnalisée et engageante avec des outils conçus pour les garder motivés et sur la bonne voie.",
       benefits: [
         { title: "Tableau de bord personnalisé", description: "Suivez votre progression, recevez des recommandations et reprenez l'apprentissage là où vous l'avez laissé." },
         { title: "Réalisations & Certificats", description: "Gagnez des badges pour les étapes clés et des accréditations vérifiées à la fin du cours." },
@@ -637,34 +637,34 @@ export const fr: Translations = {
       ],
     },
     testimonials: {
-      sectionLabel: "Témoignages",
-      heading: "Plébiscité par les éducateurs du monde entier",
+      sectionLabel: "Plateforme",
+      heading: "Conçu pour les éducateurs à toute échelle",
       items: [
         {
-          name: "Sarah Johnson",
-          role: "Instructrice en académie technologique",
-          quote: "Cette plateforme a complètement transformé ma méthodologie d'enseignement. L'interface est conçue de manière intuitive, et les analyses m'aident à comprendre exactement où les étudiants ont besoin d'aide.",
+          name: "Création de cours",
+          role: "Constructeur intuitif",
+          quote: "Un constructeur de cours par glisser-déposer qui prend en charge la vidéo, le texte, les quiz et les défis de codage — facilitant la création d'expériences d'apprentissage engageantes en quelques minutes.",
         },
         {
-          name: "Michael Chen",
-          role: "Instructeur en design",
-          quote: "Les fonctionnalités communautaires et la messagerie maintiennent les étudiants engagés entre les leçons. Mes taux de complétion ont augmenté de 40% depuis mon passage à cette plateforme.",
+          name: "Engagement étudiant",
+          role: "Outils communautaires",
+          quote: "Des fonctionnalités communautaires intégrées, la messagerie et les forums de discussion gardent les étudiants engagés entre les leçons et aident à bâtir une communauté d'apprentissage dynamique.",
         },
         {
-          name: "Emma Rodriguez",
-          role: "Coach en affaires",
-          quote: "La mise en place de mon école a été remarquablement simple. Le support multi-langue me permet d'atteindre les étudiants en 4 langues, et la vérification des certificats renforce la crédibilité.",
+          name: "Portée mondiale",
+          role: "Support multi-langue",
+          quote: "Le support complet de l'anglais, l'espagnol, le français et le créole haïtien vous permet d'atteindre des étudiants dans le monde entier. Les certificats vérifiés renforcent la crédibilité au-delà des frontières.",
         },
         {
-          name: "David Okafor",
-          role: "Administrateur scolaire",
-          quote: "La gestion du personnel avec des permissions granulaires répond à tous les besoins de notre institution. Le contrôle d'accès basé sur les rôles nous permet de gérer plus de 50 instructeurs en toute fluidité.",
+          name: "Gestion d'école",
+          role: "Prêt pour l'entreprise",
+          quote: "Des permissions granulaires, un contrôle d'accès basé sur les rôles et la gestion multi-écoles vous permettent de passer d'un instructeur solo à une institution avec des centaines de membres du personnel.",
         },
       ],
     },
     cta: {
       heading: "Prêt à transformer votre activité éducative ?",
-      description: "Rejoignez des milliers d'instructeurs et d'écoles qui construisent déjà leur avenir avec PG Ecom School. Commencez gratuitement dès aujourd'hui.",
+      description: "Lancez votre école, créez des cours et commencez à gagner — le tout sur une plateforme conçue pour évoluer avec vous. Commencez gratuitement dès aujourd'hui.",
       ctaPrimary: "Commencer gratuitement",
       ctaSecondary: "Explorer toutes les fonctionnalités",
       trustItems: ["Plan gratuit à vie", "Aucune carte bancaire", "Annulez à tout moment"],

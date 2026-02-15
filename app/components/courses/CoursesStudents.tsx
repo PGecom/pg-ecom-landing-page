@@ -24,10 +24,12 @@ export default function CoursesStudents() {
           {/* Left: Student dashboard mockup */}
           <div className="bg-white rounded-2xl border border-gray-200 shadow-xl p-6 order-2 lg:order-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-full bg-indigo-50 text-[var(--primary)] flex items-center justify-center font-bold text-sm">JD</div>
+              <div className="w-10 h-10 rounded-full bg-indigo-50 text-[var(--primary)] flex items-center justify-center font-bold text-sm">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342" /></svg>
+              </div>
               <div>
-                <div className="text-sm font-semibold text-gray-900">Welcome back, Jane!</div>
-                <div className="text-xs text-gray-500">3 courses in progress</div>
+                <div className="text-sm font-semibold text-gray-900">Student Dashboard</div>
+                <div className="text-xs text-gray-500">Demo preview</div>
               </div>
             </div>
 
@@ -53,9 +55,9 @@ export default function CoursesStudents() {
             {/* Stats row */}
             <div className="grid grid-cols-3 gap-3">
               {[
-                { label: "Enrolled", value: "3" },
-                { label: "Completed", value: "7" },
-                { label: "Certificates", value: "5" },
+                { label: "Students", value: "1M+" },
+                { label: "Schools", value: "10K+" },
+                { label: "Courses", value: "50K+" },
               ].map((stat, i) => (
                 <div key={i} className="text-center bg-gray-50 rounded-xl p-3">
                   <div className="text-lg font-bold text-gray-900">{stat.value}</div>

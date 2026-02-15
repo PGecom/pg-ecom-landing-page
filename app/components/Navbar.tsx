@@ -27,7 +27,7 @@ const productLinks = [
   "/identity",    // Identity Verification
   "/courses",     // Courses Management
   "/ecommerce",   // Ecommerce
-  "#features",    // Developer API
+  "http://help.pgecom.com/",    // Developer API
 ];
 
 const companyIcons: ReactNode[] = [
@@ -103,7 +103,7 @@ export default function Navbar() {
                 </svg>
               </button>
             </div>
-            <a href="#dashboard" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="http://help.pgecom.com/" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               {t.navbar.resources}
             </a>
           </div>
@@ -184,10 +184,12 @@ export default function Navbar() {
                 {t.navbar.company}
               </h3>
               <div className="space-y-1">
-                {t.navbar.companyItems.map((item, index) => (
+                {t.navbar.companyItems.map((item, index) => {
+                  const companyLinks = ["/company/about", "/company/articles", "/company/careers", "/company/legal"];
+                  return (
                   <a
                     key={index}
-                    href="#"
+                    href={companyLinks[index]}
                     className="flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors group"
                   >
                     <div className="w-9 h-9 rounded-lg bg-indigo-50 text-[var(--primary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--primary)] group-hover:text-white transition-colors">
@@ -207,7 +209,8 @@ export default function Navbar() {
                       </div>
                     </div>
                   </a>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
@@ -237,7 +240,7 @@ export default function Navbar() {
                         {tutorial.description}
                       </div>
                       <a
-                        href="#"
+                        href="http://help.pgecom.com/"
                         className="inline-flex items-center gap-1 text-xs font-semibold text-[var(--primary)] mt-2 hover:gap-1.5 transition-all"
                       >
                         <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
@@ -250,7 +253,7 @@ export default function Navbar() {
                 ))}
               </div>
               <a
-                href="#"
+                href="http://help.pgecom.com/"
                 className="inline-flex items-center gap-1.5 text-sm font-semibold text-gray-600 hover:text-gray-900 mt-6 transition-colors"
               >
                 {t.navbar.allVideoTutorials}
@@ -304,7 +307,7 @@ export default function Navbar() {
           </div>
 
           <a href="/" className="block py-3 text-sm font-medium text-gray-700 border-b border-gray-50">{t.navbar.home}</a>
-          <a href="#dashboard" className="block py-3 text-sm font-medium text-gray-700 border-b border-gray-50">{t.navbar.resources}</a>
+          <a href="http://help.pgecom.com/" className="block py-3 text-sm font-medium text-gray-700 border-b border-gray-50">{t.navbar.resources}</a>
 
           <div className="pt-4 flex flex-col gap-2">
             <LanguageSwitcher />

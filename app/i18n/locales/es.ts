@@ -590,7 +590,7 @@ export const es: Translations = {
     students: {
       sectionLabel: "Para Estudiantes",
       heading: "Una experiencia de aprendizaje encantadora",
-      description: "Los estudiantes obtienen una experiencia de aprendizaje personalizada y atractiva con herramientas que les ayudan a mantenerse en camino.",
+      description: "Ofrezca a sus estudiantes una experiencia de aprendizaje personalizada y atractiva con herramientas diseñadas para mantenerlos motivados y en camino.",
       benefits: [
         { title: "Panel Personalizado", description: "Rastree su progreso, obtenga recomendaciones y retome el aprendizaje justo donde lo dejó." },
         { title: "Logros y Certificados", description: "Gane insignias por hitos y credenciales verificadas al completar el curso." },
@@ -637,34 +637,34 @@ export const es: Translations = {
       ],
     },
     testimonials: {
-      sectionLabel: "Testimonios",
-      heading: "Amado por educadores en todo el mundo",
+      sectionLabel: "Plataforma",
+      heading: "Construido para educadores a cualquier escala",
       items: [
         {
-          name: "Sarah Johnson",
-          role: "Instructora de Academia Tecnológica",
-          quote: "Esta plataforma transformó por completo mi metodología de enseñanza. La interfaz está diseñada de forma intuitiva, y las analíticas me ayudan a entender exactamente dónde necesitan ayuda los estudiantes.",
+          name: "Creación de Cursos",
+          role: "Constructor Intuitivo",
+          quote: "Un constructor de cursos de arrastrar y soltar que admite video, texto, cuestionarios y desafíos de codificación — facilitando la creación de experiencias de aprendizaje atractivas en minutos.",
         },
         {
-          name: "Michael Chen",
-          role: "Instructor de Diseño",
-          quote: "Las funciones de comunidad y mensajería mantienen a los estudiantes comprometidos entre lecciones. Mis tasas de finalización han aumentado un 40% desde que cambié a esta plataforma.",
+          name: "Compromiso Estudiantil",
+          role: "Herramientas Comunitarias",
+          quote: "Funciones comunitarias integradas, mensajería y foros de discusión mantienen a los estudiantes comprometidos entre lecciones y ayudan a construir una comunidad de aprendizaje próspera.",
         },
         {
-          name: "Emma Rodriguez",
-          role: "Coach de Negocios",
-          quote: "Configurar mi escuela fue increíblemente sencillo. El soporte multi-idioma me permite llegar a estudiantes en 4 idiomas, y la verificación de certificados genera credibilidad.",
+          name: "Alcance Global",
+          role: "Soporte Multi-Idioma",
+          quote: "Soporte completo para inglés, español, francés y criollo haitiano le permite llegar a estudiantes en todo el mundo. Los certificados verificados generan credibilidad más allá de las fronteras.",
         },
         {
-          name: "David Okafor",
-          role: "Administrador Escolar",
-          quote: "La gestión de personal con permisos granulares satisface todas nuestras necesidades institucionales. El control de acceso basado en roles nos permite gestionar más de 50 instructores sin problemas.",
+          name: "Gestión Escolar",
+          role: "Listo para Empresas",
+          quote: "Permisos granulares, control de acceso basado en roles y gestión multi-escuela le permiten escalar desde un instructor individual hasta una institución con cientos de miembros del personal.",
         },
       ],
     },
     cta: {
       heading: "¿Listo para transformar su negocio educativo?",
-      description: "Únase a miles de instructores y escuelas que ya construyen su futuro con PG Ecom School. Comience gratis hoy.",
+      description: "Lance su escuela, cree cursos y comience a ganar — todo en una plataforma construida para escalar con usted. Comience gratis hoy.",
       ctaPrimary: "Comience gratis",
       ctaSecondary: "Explorar todas las funciones",
       trustItems: ["Plan gratuito para siempre", "Sin tarjeta de crédito", "Cancele en cualquier momento"],

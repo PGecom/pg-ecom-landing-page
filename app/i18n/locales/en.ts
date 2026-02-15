@@ -597,7 +597,7 @@ export const en = {
     students: {
       sectionLabel: "For Students",
       heading: "A delightful learning experience",
-      description: "Students get a personalized, engaging learning experience with tools that help them stay on track.",
+      description: "Give your students a personalized, engaging learning experience with tools designed to keep them motivated and on track.",
       benefits: [
         { title: "Personalized Dashboard", description: "Track progress, get recommendations, and resume learning right where you left off." },
         { title: "Achievements & Certificates", description: "Earn badges for milestones and verified credentials on completion." },
@@ -644,34 +644,34 @@ export const en = {
       ],
     },
     testimonials: {
-      sectionLabel: "Testimonials",
-      heading: "Loved by educators worldwide",
+      sectionLabel: "Platform",
+      heading: "Built for educators at every scale",
       items: [
         {
-          name: "Sarah Johnson",
-          role: "Tech Academy Instructor",
-          quote: "This platform completely transformed my teaching methodology. The interface is intuitively designed, and the analytics help me understand exactly where students need help.",
+          name: "Course Creation",
+          role: "Intuitive Builder",
+          quote: "A drag-and-drop course builder that supports video, text, quizzes, and coding challenges — making it easy to create engaging learning experiences in minutes.",
         },
         {
-          name: "Michael Chen",
-          role: "Design Instructor",
-          quote: "The community features and messaging keep students engaged between lessons. My completion rates have increased by 40% since switching to this platform.",
+          name: "Student Engagement",
+          role: "Community Tools",
+          quote: "Built-in community features, messaging, and discussion forums keep students engaged between lessons and help build a thriving learning community.",
         },
         {
-          name: "Emma Rodriguez",
-          role: "Business Coach",
-          quote: "Setting up my school was remarkably straightforward. Multi-language support lets me reach students in 4 languages, and certificate verification builds credibility.",
+          name: "Global Reach",
+          role: "Multi-Language Support",
+          quote: "Full support for English, Spanish, French, and Haitian Creole lets you reach students worldwide. Verified certificates build credibility across borders.",
         },
         {
-          name: "David Okafor",
-          role: "School Administrator",
-          quote: "Staff management with granular permissions meets all our institutional needs. Role-based access control lets us manage 50+ instructors smoothly.",
+          name: "School Management",
+          role: "Enterprise Ready",
+          quote: "Granular permissions, role-based access control, and multi-school management let you scale from a solo instructor to an institution with hundreds of staff.",
         },
       ],
     },
     cta: {
       heading: "Ready to transform your education business?",
-      description: "Join thousands of instructors and schools already building their future with PG Ecom School. Start free today.",
+      description: "Launch your school, create courses, and start earning — all on a platform built to scale with you. Start free today.",
       ctaPrimary: "Get started for free",
       ctaSecondary: "Explore all features",
       trustItems: ["Free forever plan", "No credit card", "Cancel anytime"],

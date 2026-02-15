@@ -590,7 +590,7 @@ export const ht: Translations = {
     students: {
       sectionLabel: "Pou Etidyan",
       heading: "Yon eksperyans aprantisaj agreab",
-      description: "Etidyan yo jwenn yon eksperyans aprantisaj pèsonalize ak angajan ak zouti ki ede yo rete sou bon chemen.",
+      description: "Bay etidyan ou yo yon eksperyans aprantisaj pèsonalize ak angajan ak zouti ki fèt pou kenbe yo motive epi sou bon chemen.",
       benefits: [
         { title: "Tablo Bò Pèsonalize", description: "Swiv pwogrè, jwenn rekòmandasyon epi rekòmanse aprann egzakteman kote ou te kite." },
         { title: "Reyalizasyon & Sètifika", description: "Jwenn badj pou etap enpòtan ak kalifikasyon verifye lè ou fini." },
@@ -637,34 +637,34 @@ export const ht: Translations = {
       ],
     },
     testimonials: {
-      sectionLabel: "Temwanyaj",
-      heading: "Edikadè nan tout mond lan renmen nou",
+      sectionLabel: "Platfòm",
+      heading: "Bati pou edikadè nan tout echèl",
       items: [
         {
-          name: "Sarah Johnson",
-          role: "Enstriktè Akademi Teknoloji",
-          quote: "Platfòm sa a te transfòme metòd ansèyman mwen nèt. Entèfas la fèt pou entiyitif, epi analitik yo ede mwen konprann egzakteman kote etidyan yo bezwen èd.",
+          name: "Kreyasyon Kou",
+          role: "Konstriktè Entiyitif",
+          quote: "Yon konstriktè kou glise-e-depoze ki sipòte videyo, tèks, kiz ak defi kodaj — ki fè li fasil pou kreye eksperyans aprantisaj angajan nan kèk minit.",
         },
         {
-          name: "Michael Chen",
-          role: "Enstriktè Konsepsyon",
-          quote: "Fonksyonalite kominote ak mesajri yo kenbe etidyan yo angaje ant leson yo. To konpletman mwen yo ogmante 40% depi mwen chanje sou platfòm sa a.",
+          name: "Angajman Etidyan",
+          role: "Zouti Kominote",
+          quote: "Fonksyonalite kominote entegre, mesajri ak fowòm diskisyon kenbe etidyan yo angaje ant leson yo epi ede bati yon kominote aprantisaj dinamik.",
         },
         {
-          name: "Emma Rodriguez",
-          role: "Coach Biznis",
-          quote: "Konfigirasyon lekòl mwen an te remakableman fasil. Sipò milti-lang pèmèt mwen rive jwenn etidyan nan 4 lang, epi verifikasyon sètifika bati kredibilite.",
+          name: "Enpak Mondyal",
+          role: "Sipò Milti-Lang",
+          quote: "Sipò konplè pou Angle, Panyòl, Franse ak Kreyòl Ayisyen pèmèt ou rive jwenn etidyan toupatou nan mond lan. Sètifika verifye ranfòse kredibilite atravè fwontyè.",
         },
         {
-          name: "David Okafor",
-          role: "Administratè Lekòl",
-          quote: "Jesyon pèsonèl ak pèmisyon granilè satisfè tout bezwen enstitisyonèl nou yo. Kontwòl aksè baze sou wòl pèmèt nou jere 50+ enstriktè san pwoblèm.",
+          name: "Jesyon Lekòl",
+          role: "Prè pou Antrepriz",
+          quote: "Pèmisyon granilè, kontwòl aksè baze sou wòl ak jesyon milti-lekòl pèmèt ou grandi soti nan yon sèl enstriktè rive nan yon enstitisyon ak dè santèn anplwaye.",
         },
       ],
     },
     cta: {
       heading: "Prè pou transfòme biznis edikasyon ou?",
-      description: "Rejwenn dè milye enstriktè ak lekòl k ap bati avni yo deja ak PG Ecom School. Kòmanse gratis jodi a.",
+      description: "Lanse lekòl ou, kreye kou epi kòmanse touche — tout sou yon platfòm ki bati pou grandi avèk ou. Kòmanse gratis jodi a.",
       ctaPrimary: "Kòmanse gratis",
       ctaSecondary: "Eksplore tout fonksyonalite",
       trustItems: ["Plan gratis pou toujou", "Pa gen kat kredi", "Anile nenpòt lè"],
