@@ -16,7 +16,7 @@ export default function PrepaidCTA() {
         </p>
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#"
+            href="https://prepaid.pgecom.com/signup"
             className="w-full sm:w-auto bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white font-semibold px-8 py-3.5 rounded-xl text-base transition-all hover:shadow-lg hover:shadow-indigo-200"
           >
             {t.prepaid.cta.ctaPrimary}

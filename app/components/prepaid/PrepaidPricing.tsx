@@ -57,7 +57,7 @@ export default function PrepaidPricing() {
                 </ul>
 
                 <a
-                  href="#"
+                  href="https://prepaid.pgecom.com/signup"
                   className={`mt-8 block w-full text-center font-semibold py-3 rounded-xl transition-colors ${
                     isPopular
                       ? "bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white"

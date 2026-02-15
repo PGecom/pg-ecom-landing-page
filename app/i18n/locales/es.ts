@@ -15,11 +15,9 @@ export const es: Translations = {
       { title: "Emisión de Tarjetas", description: "Emita tarjetas virtuales y físicas para su negocio." },
       { title: "Recarga Prepago", description: "Habilite recargas instantáneas para tarjetas prepago y billeteras." },
       { title: "Verificación de Identidad", description: "Verifique la identidad de los clientes con KYC y verificación de documentos." },
-      { title: "Billeteras Digitales", description: "Compatible con Apple Pay, Google Pay y Samsung Pay." },
       { title: "Gestión de Cursos", description: "Cree, gestione y venda cursos en línea con facilidad." },
       { title: "E-commerce", description: "Lance y gestione su tienda en línea con herramientas poderosas." },
       { title: "API para Desarrolladores", description: "APIs RESTful y webhooks para cada evento de tarjeta." },
-      { title: "Cumplimiento", description: "KYC, monitoreo AML y detección de fraude integrados." },
     ],
     companyItems: [
       { title: "Sobre nosotros", description: "Conozca nuestra historia y nuestra misión.", badge: "" },

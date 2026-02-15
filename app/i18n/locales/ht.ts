@@ -15,11 +15,9 @@ export const ht: Translations = {
       { title: "Emisyon Kat", description: "Kreye kat vityèl ak fizik pou biznis ou." },
       { title: "Rechaj Prepaye", description: "Pèmèt rechaj enstantane pou kat prepaye ak bous." },
       { title: "Verifikasyon Idantite", description: "Verifye idantite kliyan yo ak KYC ak kontwòl dokiman." },
-      { title: "Bous Nimerik", description: "Sipòte Apple Pay, Google Pay ak Samsung Pay." },
       { title: "Jesyon Kou", description: "Kreye, jere ak vann kou an liy fasilman." },
       { title: "E-komès", description: "Lanse ak jere boutik an liy ou ak zouti pwisan." },
       { title: "API Devlopè", description: "API RESTful ak webhooks pou chak evènman kat." },
-      { title: "Konformite", description: "KYC, siveyans AML ak deteksyon fwod entegre." },
     ],
     companyItems: [
       { title: "Sou nou", description: "Aprann istwa nou ak misyon nou.", badge: "" },

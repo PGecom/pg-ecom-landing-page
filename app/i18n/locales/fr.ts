@@ -15,11 +15,9 @@ export const fr: Translations = {
       { title: "Émission de cartes", description: "Émettez des cartes virtuelles et physiques pour votre entreprise." },
       { title: "Recharge prépayée", description: "Activez les recharges instantanées pour les cartes prépayées et portefeuilles." },
       { title: "Vérification d'identité", description: "Vérifiez l'identité des clients avec KYC et contrôle de documents." },
-      { title: "Portefeuilles numériques", description: "Compatible Apple Pay, Google Pay et Samsung Pay." },
       { title: "Gestion de cours", description: "Créez, gérez et vendez des cours en ligne facilement." },
       { title: "E-commerce", description: "Lancez et gérez votre boutique en ligne avec des outils puissants." },
       { title: "API Développeur", description: "APIs RESTful et webhooks pour chaque événement de carte." },
-      { title: "Conformité", description: "KYC, surveillance AML et détection de fraude intégrés." },
     ],
     companyItems: [
       { title: "À propos", description: "Découvrez notre histoire et notre mission.", badge: "" },

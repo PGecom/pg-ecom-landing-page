@@ -14,11 +14,9 @@ export const en = {
       { title: "Card Issuing", description: "Issue virtual and physical cards for your business." },
       { title: "Prepaid Top Up", description: "Enable instant top-ups for prepaid cards and wallets." },
       { title: "Identity Verification", description: "Verify customer identities with KYC and document checks." },
-      { title: "Digital Wallets", description: "Apple Pay, Google Pay, and Samsung Pay support." },
       { title: "Courses Management", description: "Create, manage, and sell online courses with ease." },
       { title: "Ecommerce", description: "Launch and manage your online store with powerful tools." },
       { title: "Developer API", description: "RESTful APIs and webhooks for every card event." },
-      { title: "Compliance", description: "Built-in KYC, AML monitoring, and fraud detection." },
     ],
     companyItems: [
       { title: "About us", description: "Learn about our story and our mission statement.", badge: "" },
