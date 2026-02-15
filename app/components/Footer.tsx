@@ -15,6 +15,13 @@ export default function Footer() {
     { key: "legal" as const, links: t.footer.links.legal },
   ];
 
+  const linkRoutes: Record<string, (string | null)[]> = {
+    product: ["/", "/prepaid", "/identity", null, "/ecommerce", "/courses", null, null],
+    useCases: ["/use-cases/expense-management", "/use-cases/fleet-cards", "/use-cases/travel-platforms", "/use-cases/loyalty-programs", "/use-cases/charge-cards"],
+    resources: [null, null, null, null, null],
+    legal: [null, null, null, null, null],
+  };
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       {/* CTA Banner */}
@@ -65,9 +72,9 @@ export default function Footer() {
             <div key={section.key}>
               <h4 className="text-sm font-semibold text-white mb-4">{t.footer.linkCategories[section.key]}</h4>
               <ul className="space-y-2.5">
-                {section.links.map((link) => (
+                {section.links.map((link, idx) => (
                   <li key={link}>
-                    <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">{link}</a>
+                    <a href={linkRoutes[section.key]?.[idx] ?? "#"} className="text-sm text-gray-400 hover:text-white transition-colors">{link}</a>
                   </li>
                 ))}
               </ul>

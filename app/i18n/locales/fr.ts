@@ -670,4 +670,198 @@ export const fr: Translations = {
       trustItems: ["Plan gratuit à vie", "Aucune carte bancaire", "Annulez à tout moment"],
     },
   },
+
+  // ── Cas d'utilisation ──────────────────────────────────
+  useCases: {
+    expenseManagement: {
+      hero: {
+        badge: "Cartes de dépenses entreprise",
+        headingLine1: "Une gestion des dépenses plus intelligente",
+        headingHighlight: "avec les cartes entreprise",
+        description: "Émettez des cartes virtuelles et physiques pour vos employés avec des contrôles de dépenses en temps réel, un rapprochement automatique des reçus et une réconciliation instantanée — fini les notes de frais manuelles.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Contacter les ventes",
+      },
+      features: {
+        sectionLabel: "Fonctionnalités",
+        heading: "Prenez le contrôle des dépenses de l'entreprise",
+        description: "La plateforme d'émission de cartes PG Ecom offre aux équipes financières les outils pour gérer les dépenses professionnelles à grande échelle.",
+        items: [
+          { title: "Limites par carte", description: "Définissez des limites quotidiennes, hebdomadaires ou mensuelles sur chaque carte. Ajustez ou gelez instantanément depuis le tableau de bord." },
+          { title: "Restrictions par catégorie", description: "Contrôlez où les cartes peuvent être utilisées en restreignant les catégories de commerçants comme le voyage, la restauration ou le SaaS." },
+          { title: "Notifications en temps réel", description: "Recevez des alertes instantanées à chaque transaction. Surveillez les dépenses en direct sur toutes les cartes de l'équipe." },
+          { title: "Cartes virtuelles instantanées", description: "Émettez des cartes virtuelles en quelques secondes pour des achats ponctuels ou des abonnements récurrents." },
+          { title: "Budgets par département", description: "Allouez des budgets par équipe ou par projet. Suivez les dépenses par rapport aux limites en temps réel." },
+          { title: "Réconciliation automatisée", description: "Exportez les données de transaction directement vers votre logiciel comptable. Aucune saisie manuelle nécessaire." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Comment ça marche",
+        heading: "Lancez votre programme de cartes de dépenses",
+        steps: [
+          { title: "Créez le programme de cartes", description: "Configurez votre programme avec une image de marque personnalisée, des règles de dépenses et des workflows d'approbation." },
+          { title: "Émettez des cartes aux employés", description: "Émettez des cartes virtuelles ou physiques aux membres de l'équipe. Les cartes sont prêtes à l'emploi en quelques secondes." },
+          { title: "Surveillez et contrôlez", description: "Suivez toutes les dépenses en temps réel. Gelez des cartes, ajustez les limites et exportez des rapports instantanément." },
+        ],
+      },
+      cta: {
+        heading: "Prêt à moderniser votre gestion des dépenses ?",
+        description: "Rejoignez les entreprises qui utilisent PG Ecom pour éliminer les notes de frais et obtenir une visibilité en temps réel sur les dépenses de l'entreprise.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Parler aux ventes",
+      },
+    },
+    fleetCards: {
+      hero: {
+        badge: "Cartes flottes & carburant",
+        headingLine1: "Gestion de flotte",
+        headingHighlight: "propulsée par des cartes intelligentes",
+        description: "Émettez des cartes carburant et entretien pour vos conducteurs avec des contrôles de localisation, des restrictions par commerçant et un suivi en temps réel — pour que votre flotte fonctionne efficacement.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Contacter les ventes",
+      },
+      features: {
+        sectionLabel: "Fonctionnalités",
+        heading: "Contrôlez les dépenses de votre flotte",
+        description: "Des contrôles de cartes spécialement conçus pour les opérateurs de flottes, les entreprises de logistique et les services de livraison.",
+        items: [
+          { title: "Restriction carburant uniquement", description: "Verrouillez les cartes aux achats de carburant uniquement. Empêchez les dépenses non autorisées chez les commerçants hors carburant." },
+          { title: "Attribution par conducteur", description: "Attribuez des cartes à des conducteurs ou véhicules spécifiques. Suivez qui a dépensé quoi, où et quand." },
+          { title: "Contrôles par localisation", description: "Restreignez l'utilisation des cartes aux stations-service autorisées ou aux régions géographiques définies." },
+          { title: "Suivi en temps réel", description: "Surveillez toutes les transactions de la flotte en direct. Recevez des alertes instantanées en cas d'activité inhabituelle." },
+          { title: "Budgets d'entretien", description: "Définissez des budgets séparés pour le carburant, les réparations et les péages. Maîtrisez les coûts d'entretien." },
+          { title: "Analytique de flotte", description: "Rapports détaillés sur la consommation de carburant, les dépenses par conducteur et le coût au kilomètre." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Comment ça marche",
+        heading: "Mettez vos cartes flottes en service",
+        steps: [
+          { title: "Configurez votre flotte", description: "Enregistrez vos véhicules et conducteurs. Définissez les règles de dépenses et les listes de commerçants carburant." },
+          { title: "Distribuez les cartes", description: "Émettez des cartes carburant physiques ou virtuelles à chaque conducteur. Les cartes s'activent instantanément." },
+          { title: "Suivez et optimisez", description: "Surveillez les dépenses de carburant en temps réel. Identifiez les opportunités d'économies grâce à l'analytique de flotte." },
+        ],
+      },
+      cta: {
+        heading: "Prêt à maîtriser les coûts de votre flotte ?",
+        description: "Rejoignez les opérateurs de flottes qui utilisent PG Ecom pour réduire la fraude au carburant, automatiser le suivi des dépenses et optimiser les coûts de flotte.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Parler aux ventes",
+      },
+    },
+    travelPlatforms: {
+      hero: {
+        badge: "Cartes pour plateformes de voyage",
+        headingLine1: "Cartes virtuelles pour",
+        headingHighlight: "plateformes de voyage",
+        description: "Émettez des cartes virtuelles à usage unique pour les paiements fournisseurs, les réservations d'hôtels et les billets d'avion — avec autorisation en temps réel et support multi-devises intégré.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Contacter les ventes",
+      },
+      features: {
+        sectionLabel: "Fonctionnalités",
+        heading: "Conçu pour la technologie du voyage",
+        description: "Émission de cartes virtuelles à haut volume conçue pour les OTA, les TMC et les plateformes technologiques de voyage.",
+        items: [
+          { title: "Cartes par réservation", description: "Générez une carte virtuelle unique pour chaque réservation. L'autorisation au montant exact empêche les surfacturations." },
+          { title: "Support multi-devises", description: "Émettez des cartes dans plus de 30 devises. Payez les fournisseurs dans leur devise locale pour éviter les frais de conversion." },
+          { title: "Émission instantanée", description: "Créez des cartes virtuelles via API en millisecondes. Aucun délai entre la réservation et le paiement fournisseur." },
+          { title: "Réconciliation automatisée", description: "Faites correspondre automatiquement les cartes aux réservations. Éliminez la réconciliation manuelle sur des milliers de transactions." },
+          { title: "Prévention de la fraude", description: "Les cartes à usage unique expirent après la transaction. Aucune donnée de carte à voler, aucun débit non autorisé." },
+          { title: "Autorisation en temps réel", description: "Approuvez ou refusez les transactions instantanément avec des règles personnalisées basées sur le montant, le commerçant ou la devise." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Comment ça marche",
+        heading: "Intégrez les cartes virtuelles dans votre plateforme",
+        steps: [
+          { title: "Connectez-vous via l'API", description: "Intégrez notre API d'émission de cartes dans votre flux de réservation. Documentation complète et environnement sandbox inclus." },
+          { title: "Émettez des cartes par réservation", description: "Générez automatiquement des cartes virtuelles pour chaque paiement fournisseur avec des montants exacts et des verrous commerçant." },
+          { title: "Réconciliez automatiquement", description: "Les données de transaction remontent vers votre système en temps réel. Faites correspondre les paiements aux réservations sans effort." },
+        ],
+      },
+      cta: {
+        heading: "Prêt à simplifier vos paiements de voyage ?",
+        description: "Rejoignez les plateformes de voyage qui utilisent PG Ecom pour automatiser les paiements fournisseurs, réduire la fraude et simplifier la réconciliation.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Parler aux ventes",
+      },
+    },
+    loyaltyPrograms: {
+      hero: {
+        badge: "Cartes fidélité & récompenses",
+        headingLine1: "Des cartes de récompenses à votre marque",
+        headingHighlight: "qui fidélisent vos clients",
+        description: "Lancez des cartes prépayées et de récompenses à votre image qui incitent vos clients à revenir. Offrez du cashback, des points et des avantages exclusifs — le tout géré depuis une seule plateforme.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Contacter les ventes",
+      },
+      features: {
+        sectionLabel: "Fonctionnalités",
+        heading: "Propulsez votre programme de fidélité avec des cartes",
+        description: "Tout ce dont vous avez besoin pour lancer et gérer un programme de récompenses basé sur les cartes à grande échelle.",
+        items: [
+          { title: "Programmes de cashback", description: "Mettez en place un cashback automatique sur les achats. Configurez les taux par catégorie de commerçant ou par montant dépensé." },
+          { title: "Récompenses par points", description: "Attribuez des points par dollar dépensé. Permettez aux clients d'échanger leurs points contre des achats, des cartes-cadeaux ou des avantages." },
+          { title: "Cartes à votre marque", description: "Émettez des cartes avec le logo, les couleurs et le design de votre marque. Options physiques et virtuelles disponibles." },
+          { title: "Segmentation client", description: "Créez des niveaux VIP et des récompenses ciblées basées sur les habitudes de dépenses et la valeur vie client." },
+          { title: "Niveaux de récompenses", description: "Construisez des programmes à paliers — Argent, Or, Platine — avec des avantages croissants qui stimulent l'engagement." },
+          { title: "Analytique d'engagement", description: "Suivez les taux d'échange, les utilisateurs actifs et le ROI du programme. Optimisez les récompenses en vous appuyant sur des données réelles." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Comment ça marche",
+        heading: "Lancez votre programme de récompenses",
+        steps: [
+          { title: "Concevez votre programme", description: "Choisissez entre cashback, points ou modèles hybrides. Définissez les règles de récompenses et les structures de paliers." },
+          { title: "Émettez des cartes à votre marque", description: "Distribuez des cartes physiques ou virtuelles à votre image aux clients. Les cartes s'activent dès la première utilisation." },
+          { title: "Suivez et optimisez", description: "Surveillez les performances du programme en temps réel. Ajustez les récompenses en fonction des données d'engagement et de rétention." },
+        ],
+      },
+      cta: {
+        heading: "Prêt à lancer votre programme de fidélité ?",
+        description: "Rejoignez les marques qui utilisent PG Ecom pour créer des programmes de récompenses par cartes qui augmentent la rétention client et la valeur vie.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Parler aux ventes",
+      },
+    },
+    chargeCards: {
+      hero: {
+        badge: "Cartes de crédit entreprise",
+        headingLine1: "Cartes de crédit entreprise",
+        headingHighlight: "avec facturation flexible",
+        description: "Émettez des cartes de crédit avec des lignes de crédit et des cycles de facturation adaptés à votre entreprise. Donnez à vos équipes la liberté de dépenser en toute confiance tout en gardant le contrôle financier.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Contacter les ventes",
+      },
+      features: {
+        sectionLabel: "Fonctionnalités",
+        heading: "Des cartes de crédit conçues pour les entreprises",
+        description: "Des programmes de crédit flexibles avec un contrôle total sur les limites, les cycles de facturation et les conditions de remboursement.",
+        items: [
+          { title: "Gestion des lignes de crédit", description: "Définissez et ajustez les limites de crédit par carte ou par titulaire. Augmentez les limites au fur et à mesure que la confiance grandit." },
+          { title: "Cycles de facturation mensuels", description: "Les transactions s'accumulent sur la période de facturation. Émettez automatiquement des relevés clairs et détaillés." },
+          { title: "Délais de paiement", description: "Configurez des fenêtres de paiement adaptées à votre activité. Offrez des délais de 15, 30 ou 45 jours." },
+          { title: "Génération de relevés", description: "Relevés mensuels automatiques avec détails des transactions, dates d'échéance et résumés de compte." },
+          { title: "Contrôles du risque de crédit", description: "Surveillance en temps réel de l'utilisation du crédit. Alertes automatiques lorsque les titulaires approchent de leurs limites." },
+          { title: "Programmes multi-cartes", description: "Émettez plusieurs cartes de crédit sous un seul compte. Définissez des limites individuelles avec une facturation partagée." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Comment ça marche",
+        heading: "Mettez en place votre programme de cartes de crédit",
+        steps: [
+          { title: "Configurez les conditions de crédit", description: "Définissez les limites de crédit, les cycles de facturation et les conditions de paiement. Établissez les paramètres de risque et les critères d'approbation." },
+          { title: "Émettez les cartes de crédit", description: "Distribuez des cartes de crédit aux employés ou clients. Chaque carte hérite des règles de crédit de votre programme." },
+          { title: "Facturez et encaissez", description: "Génération automatique de relevés et encaissement des paiements. Suivez les soldes impayés en temps réel." },
+        ],
+      },
+      cta: {
+        heading: "Prêt à lancer votre programme de cartes de crédit ?",
+        description: "Rejoignez les entreprises qui utilisent PG Ecom pour offrir des cartes de crédit flexibles avec facturation automatisée, contrôles de crédit et reporting en temps réel.",
+        ctaPrimary: "Commencer à émettre",
+        ctaSecondary: "Parler aux ventes",
+      },
+    },
+  },
 };

@@ -677,4 +677,198 @@ export const en = {
       trustItems: ["Free forever plan", "No credit card", "Cancel anytime"],
     },
   },
+
+  // ── Use Cases ──────────────────────────────────────
+  useCases: {
+    expenseManagement: {
+      hero: {
+        badge: "Corporate Expense Cards",
+        headingLine1: "Smarter expense management",
+        headingHighlight: "with corporate cards",
+        description: "Issue virtual and physical cards to employees with real-time spend controls, automated receipt matching, and instant reconciliation — eliminating manual expense reports for good.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Contact sales",
+      },
+      features: {
+        sectionLabel: "Features",
+        heading: "Take control of business spending",
+        description: "PG Ecom's card issuing platform gives finance teams the tools to manage corporate expenses at scale.",
+        items: [
+          { title: "Per-Card Spend Limits", description: "Set daily, weekly, or monthly limits on each card. Adjust or freeze instantly from the dashboard." },
+          { title: "Category Restrictions", description: "Control where cards can be used by restricting merchant categories like travel, dining, or SaaS." },
+          { title: "Real-Time Notifications", description: "Get instant alerts on every transaction. Monitor spending as it happens across all team cards." },
+          { title: "Instant Virtual Cards", description: "Issue virtual cards in seconds for one-time purchases or recurring subscriptions." },
+          { title: "Department Budgets", description: "Allocate budgets by team or project. Track spending against limits in real time." },
+          { title: "Automated Reconciliation", description: "Export transaction data directly to your accounting software. No manual entry required." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "How It Works",
+        heading: "Launch your expense card program",
+        steps: [
+          { title: "Create Card Program", description: "Set up your card program with custom branding, spend rules, and approval workflows." },
+          { title: "Issue Cards to Employees", description: "Issue virtual or physical cards to team members. Cards are ready to use in seconds." },
+          { title: "Monitor & Control", description: "Track all spending in real time. Freeze cards, adjust limits, and export reports instantly." },
+        ],
+      },
+      cta: {
+        heading: "Ready to modernize your expense management?",
+        description: "Join businesses using PG Ecom to eliminate expense reports and gain real-time visibility into company spending.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Talk to sales",
+      },
+    },
+    fleetCards: {
+      hero: {
+        badge: "Fleet & Fuel Cards",
+        headingLine1: "Fleet management",
+        headingHighlight: "powered by smart cards",
+        description: "Issue fuel and maintenance cards to drivers with location controls, merchant restrictions, and real-time tracking — keeping your fleet running efficiently.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Contact sales",
+      },
+      features: {
+        sectionLabel: "Features",
+        heading: "Control your fleet spending",
+        description: "Purpose-built card controls for fleet operators, logistics companies, and delivery services.",
+        items: [
+          { title: "Fuel-Only Restrictions", description: "Lock cards to fuel purchases only. Prevent unauthorized spending at non-fuel merchants." },
+          { title: "Driver Assignment", description: "Assign cards to specific drivers or vehicles. Track who spent what, where, and when." },
+          { title: "Location-Based Controls", description: "Restrict card usage to approved fuel stations or geographic regions." },
+          { title: "Real-Time Tracking", description: "Monitor all fleet transactions as they happen. Get instant alerts on unusual activity." },
+          { title: "Maintenance Budgets", description: "Set separate budgets for fuel, repairs, and tolls. Keep maintenance costs predictable." },
+          { title: "Fleet Analytics", description: "Detailed reports on fuel consumption, spending by driver, and cost-per-mile metrics." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "How It Works",
+        heading: "Get your fleet cards running",
+        steps: [
+          { title: "Set Up Your Fleet", description: "Register your vehicles and drivers. Configure spending rules and fuel merchant lists." },
+          { title: "Distribute Cards", description: "Issue physical or virtual fuel cards to each driver. Cards activate instantly." },
+          { title: "Track & Optimize", description: "Monitor fuel spending in real time. Identify savings opportunities with fleet analytics." },
+        ],
+      },
+      cta: {
+        heading: "Ready to take control of your fleet costs?",
+        description: "Join fleet operators using PG Ecom to reduce fuel fraud, automate expense tracking, and optimize fleet spending.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Talk to sales",
+      },
+    },
+    travelPlatforms: {
+      hero: {
+        badge: "Travel Platform Cards",
+        headingLine1: "Virtual cards for",
+        headingHighlight: "travel platforms",
+        description: "Issue single-use virtual cards for supplier payments, hotel bookings, and airline tickets — with real-time authorization and multi-currency support built in.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Contact sales",
+      },
+      features: {
+        sectionLabel: "Features",
+        heading: "Built for travel technology",
+        description: "High-volume virtual card issuance designed for OTAs, TMCs, and travel tech platforms.",
+        items: [
+          { title: "Per-Booking Cards", description: "Generate a unique virtual card for each booking. Exact-amount authorization prevents overcharges." },
+          { title: "Multi-Currency Support", description: "Issue cards in 30+ currencies. Pay suppliers in their local currency to avoid conversion fees." },
+          { title: "Instant Issuance", description: "Create virtual cards via API in milliseconds. No delays between booking and supplier payment." },
+          { title: "Automated Reconciliation", description: "Match cards to bookings automatically. Eliminate manual reconciliation across thousands of transactions." },
+          { title: "Fraud Prevention", description: "Single-use cards expire after the transaction. No card data to steal, no unauthorized charges." },
+          { title: "Real-Time Authorization", description: "Approve or decline transactions instantly with custom rules based on amount, merchant, or currency." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "How It Works",
+        heading: "Integrate virtual cards into your platform",
+        steps: [
+          { title: "Connect via API", description: "Integrate our card issuance API into your booking flow. Full documentation and sandbox included." },
+          { title: "Issue Cards Per Booking", description: "Automatically generate virtual cards for each supplier payment with exact amounts and merchant locks." },
+          { title: "Reconcile Automatically", description: "Transaction data flows back to your system in real time. Match payments to bookings effortlessly." },
+        ],
+      },
+      cta: {
+        heading: "Ready to streamline your travel payments?",
+        description: "Join travel platforms using PG Ecom to automate supplier payments, reduce fraud, and simplify reconciliation.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Talk to sales",
+      },
+    },
+    loyaltyPrograms: {
+      hero: {
+        badge: "Loyalty & Rewards Cards",
+        headingLine1: "Branded reward cards",
+        headingHighlight: "that drive loyalty",
+        description: "Launch branded prepaid and reward cards that keep customers coming back. Offer cashback, points, and exclusive perks — all managed from one platform.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Contact sales",
+      },
+      features: {
+        sectionLabel: "Features",
+        heading: "Power your loyalty program with cards",
+        description: "Everything you need to launch and manage a card-based rewards program at scale.",
+        items: [
+          { title: "Cashback Programs", description: "Set up automatic cashback on purchases. Configure rates by merchant category or spend amount." },
+          { title: "Points-Based Rewards", description: "Award points per dollar spent. Let customers redeem points for purchases, gift cards, or perks." },
+          { title: "Branded Cards", description: "Issue cards with your brand's logo, colors, and design. Physical and virtual options available." },
+          { title: "Customer Segmentation", description: "Create VIP tiers and targeted rewards based on spending habits and customer lifetime value." },
+          { title: "Reward Tiers", description: "Build tiered programs — Silver, Gold, Platinum — with escalating benefits that drive engagement." },
+          { title: "Engagement Analytics", description: "Track redemption rates, active users, and program ROI. Optimize rewards based on real data." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "How It Works",
+        heading: "Launch your rewards program",
+        steps: [
+          { title: "Design Your Program", description: "Choose between cashback, points, or hybrid models. Set reward rules and tier structures." },
+          { title: "Issue Branded Cards", description: "Distribute branded physical or virtual cards to customers. Cards activate on first use." },
+          { title: "Track & Optimize", description: "Monitor program performance in real time. Adjust rewards based on engagement and retention data." },
+        ],
+      },
+      cta: {
+        heading: "Ready to launch your loyalty program?",
+        description: "Join brands using PG Ecom to build card-based rewards programs that increase customer retention and lifetime value.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Talk to sales",
+      },
+    },
+    chargeCards: {
+      hero: {
+        badge: "Business Charge Cards",
+        headingLine1: "Business charge cards",
+        headingHighlight: "with flexible billing",
+        description: "Issue charge cards with credit lines and billing cycles tailored to your business. Empower teams to spend with confidence while maintaining financial control.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Contact sales",
+      },
+      features: {
+        sectionLabel: "Features",
+        heading: "Charge cards built for business",
+        description: "Flexible credit programs with full control over limits, billing cycles, and repayment terms.",
+        items: [
+          { title: "Credit Line Management", description: "Set and adjust credit limits per card or per cardholder. Increase limits as trust grows." },
+          { title: "Monthly Billing Cycles", description: "Transactions accumulate over the billing period. Issue clear, itemized statements automatically." },
+          { title: "Grace Periods", description: "Configure payment windows that work for your business. Offer 15, 30, or 45-day terms." },
+          { title: "Statement Generation", description: "Automatic monthly statements with transaction details, payment due dates, and account summaries." },
+          { title: "Credit Risk Controls", description: "Real-time monitoring of credit utilization. Automatic alerts when cardholders approach their limits." },
+          { title: "Multi-Card Programs", description: "Issue multiple charge cards under a single account. Set individual limits with shared billing." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "How It Works",
+        heading: "Set up your charge card program",
+        steps: [
+          { title: "Configure Credit Terms", description: "Set credit limits, billing cycles, and payment terms. Define risk parameters and approval criteria." },
+          { title: "Issue Charge Cards", description: "Distribute charge cards to employees or clients. Each card inherits your program's credit rules." },
+          { title: "Bill & Collect", description: "Automated statement generation and payment collection. Track outstanding balances in real time." },
+        ],
+      },
+      cta: {
+        heading: "Ready to launch your charge card program?",
+        description: "Join businesses using PG Ecom to offer flexible charge cards with automated billing, credit controls, and real-time reporting.",
+        ctaPrimary: "Start issuing cards",
+        ctaSecondary: "Talk to sales",
+      },
+    },
+  },
 } as const;

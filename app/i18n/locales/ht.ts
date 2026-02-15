@@ -670,4 +670,198 @@ export const ht: Translations = {
       trustItems: ["Plan gratis pou toujou", "Pa gen kat kredi", "Anile nenpòt lè"],
     },
   },
+
+  // ── Ka Itilizasyon ──────────────────────────────────────
+  useCases: {
+    expenseManagement: {
+      hero: {
+        badge: "Kat Depans Kòporatif",
+        headingLine1: "Jesyon depans pi entelijan",
+        headingHighlight: "ak kat kòporatif",
+        description: "Kreye kat vityèl ak fizik pou anplwaye yo ak kontwòl depans an tan reyèl, korespondan resi otomatik ak rekonsilyasyon enstantane — elimine rapò depans manyèl pou tout tan.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Kontakte vant",
+      },
+      features: {
+        sectionLabel: "Fonksyonalite",
+        heading: "Pran kontwòl depans biznis",
+        description: "Platfòm emisyon kat PG Ecom bay ekip finans zouti pou jere depans kòporatif a gran echèl.",
+        items: [
+          { title: "Limit Depans pa Kat", description: "Fikse limit chak jou, chak semèn oswa chak mwa sou chak kat. Ajiste oswa jele enstantaneman nan tablo bò a." },
+          { title: "Restriksyon Kategori", description: "Kontwole kote kat yo ka itilize lè ou limite kategori machan tankou vwayaj, restoran oswa SaaS." },
+          { title: "Notifikasyon an Tan Reyèl", description: "Resevwa alèt enstantane sou chak tranzaksyon. Siveye depans jan sa ap fèt sou tout kat ekip yo." },
+          { title: "Kat Vityèl Enstantane", description: "Kreye kat vityèl nan kèk segond pou acha yon sèl fwa oswa abònman rekirant." },
+          { title: "Bidjè pa Depatman", description: "Alokasyon bidjè pa ekip oswa pwojè. Swiv depans kont limit yo an tan reyèl." },
+          { title: "Rekonsilyasyon Otomatik", description: "Ekspòte done tranzaksyon dirèkteman nan lojisyèl kontablite ou. Pa gen antre manyèl obligatwa." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Kijan Sa Fonksyone",
+        heading: "Lanse pwogram kat depans ou",
+        steps: [
+          { title: "Kreye Pwogram Kat", description: "Konfigire pwogram kat ou ak mak pèsonalize, règ depans ak flux apwobasyon." },
+          { title: "Kreye Kat pou Anplwaye", description: "Kreye kat vityèl oswa fizik pou manm ekip yo. Kat yo prè pou itilize nan kèk segond." },
+          { title: "Siveye & Kontwole", description: "Swiv tout depans an tan reyèl. Jele kat, ajiste limit epi ekspòte rapò enstantaneman." },
+        ],
+      },
+      cta: {
+        heading: "Prè pou modènize jesyon depans ou?",
+        description: "Rejwenn biznis k ap itilize PG Ecom pou elimine rapò depans epi jwenn vizibilite an tan reyèl sou depans konpayi a.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Pale ak vant",
+      },
+    },
+    fleetCards: {
+      hero: {
+        badge: "Kat Flòt & Gaz",
+        headingLine1: "Jesyon flòt",
+        headingHighlight: "alimante pa kat entelijan",
+        description: "Kreye kat gaz ak antretyen pou chofè yo ak kontwòl kote, restriksyon machan ak swivi an tan reyèl — kenbe flòt ou ap mache efikasman.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Kontakte vant",
+      },
+      features: {
+        sectionLabel: "Fonksyonalite",
+        heading: "Kontwole depans flòt ou",
+        description: "Kontwòl kat ki fèt espesyalman pou operatè flòt, konpayi lojistik ak sèvis livrezon.",
+        items: [
+          { title: "Restriksyon Gaz Sèlman", description: "Bloke kat yo pou acha gaz sèlman. Anpeche depans san otorizasyon nan machan ki pa gaz." },
+          { title: "Asiyasyon Chofè", description: "Asiye kat bay chofè oswa machin espesifik. Swiv ki moun ki te depanse kisa, ki kote ak ki lè." },
+          { title: "Kontwòl pa Kote", description: "Limite itilizasyon kat nan estasyon gaz apwouve oswa rejyon jewografik." },
+          { title: "Swivi an Tan Reyèl", description: "Siveye tout tranzaksyon flòt jan sa ap fèt. Resevwa alèt enstantane sou aktivite inabityèl." },
+          { title: "Bidjè Antretyen", description: "Fikse bidjè separe pou gaz, reparasyon ak peyaj. Kenbe depans antretyen previzib." },
+          { title: "Analitik Flòt", description: "Rapò detaye sou konsomasyon gaz, depans pa chofè ak metrik pri-pa-mil." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Kijan Sa Fonksyone",
+        heading: "Mete kat flòt ou an wout",
+        steps: [
+          { title: "Konfigire Flòt Ou", description: "Anrejistre machin ak chofè ou yo. Konfigire règ depans ak lis machan gaz." },
+          { title: "Distribye Kat", description: "Kreye kat gaz fizik oswa vityèl pou chak chofè. Kat yo aktive enstantaneman." },
+          { title: "Swiv & Optimize", description: "Siveye depans gaz an tan reyèl. Idantifye opòtinite ekonomi ak analitik flòt." },
+        ],
+      },
+      cta: {
+        heading: "Prè pou pran kontwòl depans flòt ou?",
+        description: "Rejwenn operatè flòt k ap itilize PG Ecom pou redwi fwod gaz, otomatize swivi depans epi optimize depans flòt.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Pale ak vant",
+      },
+    },
+    travelPlatforms: {
+      hero: {
+        badge: "Kat Platfòm Vwayaj",
+        headingLine1: "Kat vityèl pou",
+        headingHighlight: "platfòm vwayaj",
+        description: "Kreye kat vityèl pou yon sèl itilizasyon pou peman founisè, rezèvasyon otèl ak tikè avyon — ak otorizasyon an tan reyèl ak sipò milti-lajan entegre.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Kontakte vant",
+      },
+      features: {
+        sectionLabel: "Fonksyonalite",
+        heading: "Konstwi pou teknoloji vwayaj",
+        description: "Emisyon kat vityèl a gwo volim konsevi pou OTA, TMC ak platfòm teknoloji vwayaj.",
+        items: [
+          { title: "Kat pa Rezèvasyon", description: "Jenerasyon yon kat vityèl inik pou chak rezèvasyon. Otorizasyon montan egzak anpeche sifaktire." },
+          { title: "Sipò Milti-Lajan", description: "Kreye kat nan 30+ lajan. Peye founisè nan lajan lokal yo pou evite frè konvèsyon." },
+          { title: "Emisyon Enstantane", description: "Kreye kat vityèl atravè API nan milisegond. Pa gen okenn reta ant rezèvasyon ak peman founisè." },
+          { title: "Rekonsilyasyon Otomatik", description: "Matche kat ak rezèvasyon otomatikman. Elimine rekonsilyasyon manyèl nan dè milye tranzaksyon." },
+          { title: "Prevansyon Fwod", description: "Kat pou yon sèl itilizasyon ekspire apre tranzaksyon an. Pa gen done kat pou vòlè, pa gen chaj san otorizasyon." },
+          { title: "Otorizasyon an Tan Reyèl", description: "Apwouve oswa refize tranzaksyon enstantaneman ak règ pèsonalize baze sou montan, machan oswa lajan." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Kijan Sa Fonksyone",
+        heading: "Entegre kat vityèl nan platfòm ou",
+        steps: [
+          { title: "Konekte atravè API", description: "Entegre API emisyon kat nou nan flux rezèvasyon ou. Dokimantasyon konplè ak sandbox enkli." },
+          { title: "Kreye Kat pa Rezèvasyon", description: "Jenerasyon otomatik kat vityèl pou chak peman founisè ak montan egzak ak blokaj machan." },
+          { title: "Rekonsilyasyon Otomatik", description: "Done tranzaksyon retounen nan sistèm ou an tan reyèl. Matche peman ak rezèvasyon san efò." },
+        ],
+      },
+      cta: {
+        heading: "Prè pou senplifye peman vwayaj ou?",
+        description: "Rejwenn platfòm vwayaj k ap itilize PG Ecom pou otomatize peman founisè, redwi fwod epi senplifye rekonsilyasyon.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Pale ak vant",
+      },
+    },
+    loyaltyPrograms: {
+      hero: {
+        badge: "Kat Fidelite & Rekonpans",
+        headingLine1: "Kat rekonpans ak mak ou",
+        headingHighlight: "ki ankouraje fidelite",
+        description: "Lanse kat prepaye ak rekonpans ak mak ou ki fè kliyan retounen. Ofri cashback, pwen ak avantaj eksklizif — tout sa jere sou yon sèl platfòm.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Kontakte vant",
+      },
+      features: {
+        sectionLabel: "Fonksyonalite",
+        heading: "Alimante pwogram fidelite ou ak kat",
+        description: "Tout sa ou bezwen pou lanse ak jere yon pwogram rekonpans baze sou kat a gran echèl.",
+        items: [
+          { title: "Pwogram Cashback", description: "Konfigire cashback otomatik sou acha. Paramètre to pa kategori machan oswa montan depans." },
+          { title: "Rekonpans Baze sou Pwen", description: "Akòde pwen pa dola depanse. Kite kliyan rachte pwen pou acha, kat kado oswa avantaj." },
+          { title: "Kat ak Mak Ou", description: "Kreye kat ak logo, koulè ak konsepsyon mak ou. Opsyon fizik ak vityèl disponib." },
+          { title: "Segmantasyon Kliyan", description: "Kreye nivo VIP ak rekonpans sible baze sou abitid depans ak valè vi kliyan." },
+          { title: "Nivo Rekonpans", description: "Bati pwogram ak nivo — Ajan, Lò, Platin — ak avantaj ki monte pou stimile angajman." },
+          { title: "Analitik Angajman", description: "Swiv to rachte, itilizatè aktif ak retou sou envestisman pwogram. Optimize rekonpans baze sou done reyèl." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Kijan Sa Fonksyone",
+        heading: "Lanse pwogram rekonpans ou",
+        steps: [
+          { title: "Konsevwa Pwogram Ou", description: "Chwazi ant cashback, pwen oswa modèl ibrid. Fikse règ rekonpans ak estrikti nivo." },
+          { title: "Kreye Kat ak Mak Ou", description: "Distribye kat fizik oswa vityèl ak mak ou bay kliyan. Kat yo aktive sou premye itilizasyon." },
+          { title: "Swiv & Optimize", description: "Siveye pèfòmans pwogram an tan reyèl. Ajiste rekonpans baze sou done angajman ak retansyon." },
+        ],
+      },
+      cta: {
+        heading: "Prè pou lanse pwogram fidelite ou?",
+        description: "Rejwenn mak k ap itilize PG Ecom pou bati pwogram rekonpans baze sou kat ki ogmante retansyon kliyan ak valè vi.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Pale ak vant",
+      },
+    },
+    chargeCards: {
+      hero: {
+        badge: "Kat Kredi Biznis",
+        headingLine1: "Kat kredi biznis",
+        headingHighlight: "ak faktirasyion fleksib",
+        description: "Kreye kat kredi ak liy kredi ak sik faktirasyion adapte pou biznis ou. Pèmèt ekip yo depanse ak konfyans pandan ou kenbe kontwòl finansye.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Kontakte vant",
+      },
+      features: {
+        sectionLabel: "Fonksyonalite",
+        heading: "Kat kredi konstwi pou biznis",
+        description: "Pwogram kredi fleksib ak kontwòl total sou limit, sik faktirasyion ak kondisyon ranbousman.",
+        items: [
+          { title: "Jesyon Liy Kredi", description: "Fikse ak ajiste limit kredi pa kat oswa pa titilè kat. Ogmante limit jan konfyans grandi." },
+          { title: "Sik Faktirasyion Mansyèl", description: "Tranzaksyon yo akimile pandan peryòd faktirasyion an. Jenerasyon deklarasyon detaye otomatikman." },
+          { title: "Peryòd Gras", description: "Konfigire fenèt peman ki fonksyone pou biznis ou. Ofri kondisyon 15, 30 oswa 45 jou." },
+          { title: "Jenerasyon Deklarasyon", description: "Deklarasyon mansyèl otomatik ak detay tranzaksyon, dat limit peman ak rezime kont." },
+          { title: "Kontwòl Risk Kredi", description: "Siveyans an tan reyèl sou itilizasyon kredi. Alèt otomatik lè titilè kat yo pwoche limit yo." },
+          { title: "Pwogram Milti-Kat", description: "Kreye plizyè kat kredi anba yon sèl kont. Fikse limit endividyèl ak faktirasyion pataje." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Kijan Sa Fonksyone",
+        heading: "Konfigire pwogram kat kredi ou",
+        steps: [
+          { title: "Konfigire Kondisyon Kredi", description: "Fikse limit kredi, sik faktirasyion ak kondisyon peman. Defini paramèt risk ak kritè apwobasyon." },
+          { title: "Kreye Kat Kredi", description: "Distribye kat kredi bay anplwaye oswa kliyan. Chak kat erite règ kredi pwogram ou an." },
+          { title: "Faktirasyon & Koleksyon", description: "Jenerasyon deklarasyon ak koleksyon peman otomatize. Swiv balans an soufrans an tan reyèl." },
+        ],
+      },
+      cta: {
+        heading: "Prè pou lanse pwogram kat kredi ou?",
+        description: "Rejwenn biznis k ap itilize PG Ecom pou ofri kat kredi fleksib ak faktirasyion otomatize, kontwòl kredi ak rapò an tan reyèl.",
+        ctaPrimary: "Kòmanse kreye kat",
+        ctaSecondary: "Pale ak vant",
+      },
+    },
+  },
 };

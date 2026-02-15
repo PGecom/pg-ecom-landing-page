@@ -43,7 +43,16 @@ export default function Integrations() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {t.integrations.items.map((useCase, index) => (
+          {t.integrations.items.map((useCase, index) => {
+            const useCaseLinks = [
+              "/use-cases/expense-management",
+              "/use-cases/fleet-cards",
+              "/use-cases/travel-platforms",
+              "/use-cases/loyalty-programs",
+              "#",
+              "/use-cases/charge-cards",
+            ];
+            return (
             <div key={index} className="group relative bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-all duration-300 overflow-hidden">
               <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${useCaseStyles[index].color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
               <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${useCaseStyles[index].color} text-white flex items-center justify-center mb-4`}>
@@ -51,12 +60,13 @@ export default function Integrations() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900">{useCase.title}</h3>
               <p className="mt-2 text-sm text-gray-500 leading-relaxed">{useCase.description}</p>
-              <a href="https://app.pgecom.com/signup" className="inline-flex items-center gap-1 mt-4 text-sm font-semibold text-[var(--primary)] hover:gap-2 transition-all">
+              <a href={useCaseLinks[index]} className="inline-flex items-center gap-1 mt-4 text-sm font-semibold text-[var(--primary)] hover:gap-2 transition-all">
                 {t.integrations.learnMore}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </a>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

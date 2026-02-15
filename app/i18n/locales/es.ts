@@ -670,4 +670,198 @@ export const es: Translations = {
       trustItems: ["Plan gratuito para siempre", "Sin tarjeta de crédito", "Cancele en cualquier momento"],
     },
   },
+
+  // ── Páginas de Casos de Uso ──────────────────────────────
+  useCases: {
+    expenseManagement: {
+      hero: {
+        badge: "Tarjetas Corporativas de Gastos",
+        headingLine1: "Gestión de gastos más inteligente",
+        headingHighlight: "con tarjetas corporativas",
+        description: "Emita tarjetas virtuales y físicas para empleados con controles de gasto en tiempo real, conciliación automática de recibos y reconciliación instantánea — eliminando los informes de gastos manuales definitivamente.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Contactar ventas",
+      },
+      features: {
+        sectionLabel: "Características",
+        heading: "Tome el control del gasto empresarial",
+        description: "La plataforma de emisión de tarjetas de PG Ecom brinda a los equipos financieros las herramientas para gestionar gastos corporativos a escala.",
+        items: [
+          { title: "Límites de Gasto por Tarjeta", description: "Establezca límites diarios, semanales o mensuales en cada tarjeta. Ajuste o congele al instante desde el panel." },
+          { title: "Restricciones por Categoría", description: "Controle dónde se pueden usar las tarjetas restringiendo categorías de comercio como viajes, restaurantes o SaaS." },
+          { title: "Notificaciones en Tiempo Real", description: "Reciba alertas instantáneas en cada transacción. Monitoree el gasto en tiempo real en todas las tarjetas del equipo." },
+          { title: "Tarjetas Virtuales Instantáneas", description: "Emita tarjetas virtuales en segundos para compras únicas o suscripciones recurrentes." },
+          { title: "Presupuestos por Departamento", description: "Asigne presupuestos por equipo o proyecto. Rastree el gasto contra los límites en tiempo real." },
+          { title: "Reconciliación Automatizada", description: "Exporte datos de transacciones directamente a su software de contabilidad. Sin entrada manual requerida." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Cómo Funciona",
+        heading: "Lance su programa de tarjetas de gastos",
+        steps: [
+          { title: "Crear Programa de Tarjetas", description: "Configure su programa de tarjetas con marca personalizada, reglas de gasto y flujos de aprobación." },
+          { title: "Emitir Tarjetas a Empleados", description: "Emita tarjetas virtuales o físicas a los miembros del equipo. Las tarjetas están listas para usar en segundos." },
+          { title: "Monitorear y Controlar", description: "Rastree todo el gasto en tiempo real. Congele tarjetas, ajuste límites y exporte informes al instante." },
+        ],
+      },
+      cta: {
+        heading: "¿Listo para modernizar su gestión de gastos?",
+        description: "Únase a las empresas que usan PG Ecom para eliminar informes de gastos y obtener visibilidad en tiempo real del gasto de la empresa.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Hablar con ventas",
+      },
+    },
+    fleetCards: {
+      hero: {
+        badge: "Tarjetas de Flota y Combustible",
+        headingLine1: "Gestión de flotas",
+        headingHighlight: "impulsada por tarjetas inteligentes",
+        description: "Emita tarjetas de combustible y mantenimiento a conductores con controles de ubicación, restricciones de comercio y seguimiento en tiempo real — manteniendo su flota funcionando eficientemente.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Contactar ventas",
+      },
+      features: {
+        sectionLabel: "Características",
+        heading: "Controle el gasto de su flota",
+        description: "Controles de tarjetas diseñados específicamente para operadores de flotas, empresas de logística y servicios de entrega.",
+        items: [
+          { title: "Restricción Solo Combustible", description: "Bloquee las tarjetas para compras de combustible únicamente. Prevenga gastos no autorizados en comercios que no sean de combustible." },
+          { title: "Asignación por Conductor", description: "Asigne tarjetas a conductores o vehículos específicos. Rastree quién gastó qué, dónde y cuándo." },
+          { title: "Controles por Ubicación", description: "Restrinja el uso de tarjetas a estaciones de combustible aprobadas o regiones geográficas." },
+          { title: "Seguimiento en Tiempo Real", description: "Monitoree todas las transacciones de la flota en tiempo real. Reciba alertas instantáneas ante actividad inusual." },
+          { title: "Presupuestos de Mantenimiento", description: "Establezca presupuestos separados para combustible, reparaciones y peajes. Mantenga los costos de mantenimiento predecibles." },
+          { title: "Analítica de Flota", description: "Informes detallados sobre consumo de combustible, gasto por conductor y métricas de costo por kilómetro." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Cómo Funciona",
+        heading: "Ponga en marcha sus tarjetas de flota",
+        steps: [
+          { title: "Configure Su Flota", description: "Registre sus vehículos y conductores. Configure reglas de gasto y listas de comercios de combustible." },
+          { title: "Distribuya las Tarjetas", description: "Emita tarjetas de combustible físicas o virtuales a cada conductor. Las tarjetas se activan al instante." },
+          { title: "Rastree y Optimice", description: "Monitoree el gasto en combustible en tiempo real. Identifique oportunidades de ahorro con analítica de flota." },
+        ],
+      },
+      cta: {
+        heading: "¿Listo para tomar el control de los costos de su flota?",
+        description: "Únase a los operadores de flotas que usan PG Ecom para reducir el fraude de combustible, automatizar el seguimiento de gastos y optimizar el gasto de la flota.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Hablar con ventas",
+      },
+    },
+    travelPlatforms: {
+      hero: {
+        badge: "Tarjetas para Plataformas de Viaje",
+        headingLine1: "Tarjetas virtuales para",
+        headingHighlight: "plataformas de viaje",
+        description: "Emita tarjetas virtuales de un solo uso para pagos a proveedores, reservas de hotel y boletos aéreos — con autorización en tiempo real y soporte multidivisa integrado.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Contactar ventas",
+      },
+      features: {
+        sectionLabel: "Características",
+        heading: "Diseñado para tecnología de viajes",
+        description: "Emisión de tarjetas virtuales de alto volumen diseñada para OTAs, TMCs y plataformas tecnológicas de viaje.",
+        items: [
+          { title: "Tarjetas por Reserva", description: "Genere una tarjeta virtual única para cada reserva. La autorización por monto exacto previene sobrecargos." },
+          { title: "Soporte Multidivisa", description: "Emita tarjetas en más de 30 divisas. Pague a proveedores en su moneda local para evitar comisiones de conversión." },
+          { title: "Emisión Instantánea", description: "Cree tarjetas virtuales a través de la API en milisegundos. Sin retrasos entre la reserva y el pago al proveedor." },
+          { title: "Reconciliación Automatizada", description: "Vincule tarjetas a reservas automáticamente. Elimine la reconciliación manual en miles de transacciones." },
+          { title: "Prevención de Fraude", description: "Las tarjetas de un solo uso expiran después de la transacción. Sin datos de tarjeta que robar, sin cargos no autorizados." },
+          { title: "Autorización en Tiempo Real", description: "Apruebe o rechace transacciones al instante con reglas personalizadas basadas en monto, comercio o divisa." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Cómo Funciona",
+        heading: "Integre tarjetas virtuales en su plataforma",
+        steps: [
+          { title: "Conéctese vía API", description: "Integre nuestra API de emisión de tarjetas en su flujo de reservas. Documentación completa y sandbox incluidos." },
+          { title: "Emita Tarjetas por Reserva", description: "Genere automáticamente tarjetas virtuales para cada pago a proveedor con montos exactos y bloqueos de comercio." },
+          { title: "Reconcilie Automáticamente", description: "Los datos de transacciones fluyen a su sistema en tiempo real. Vincule pagos a reservas sin esfuerzo." },
+        ],
+      },
+      cta: {
+        heading: "¿Listo para optimizar sus pagos de viaje?",
+        description: "Únase a las plataformas de viaje que usan PG Ecom para automatizar pagos a proveedores, reducir el fraude y simplificar la reconciliación.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Hablar con ventas",
+      },
+    },
+    loyaltyPrograms: {
+      hero: {
+        badge: "Tarjetas de Fidelidad y Recompensas",
+        headingLine1: "Tarjetas de recompensas de marca",
+        headingHighlight: "que impulsan la fidelidad",
+        description: "Lance tarjetas prepago y de recompensas de marca que hagan que los clientes regresen. Ofrezca cashback, puntos y beneficios exclusivos — todo gestionado desde una sola plataforma.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Contactar ventas",
+      },
+      features: {
+        sectionLabel: "Características",
+        heading: "Potencie su programa de fidelidad con tarjetas",
+        description: "Todo lo que necesita para lanzar y gestionar un programa de recompensas basado en tarjetas a escala.",
+        items: [
+          { title: "Programas de Cashback", description: "Configure cashback automático en compras. Establezca tasas por categoría de comercio o monto de gasto." },
+          { title: "Recompensas Basadas en Puntos", description: "Otorgue puntos por cada dólar gastado. Permita que los clientes canjeen puntos por compras, tarjetas de regalo o beneficios." },
+          { title: "Tarjetas de Marca", description: "Emita tarjetas con el logotipo, colores y diseño de su marca. Opciones físicas y virtuales disponibles." },
+          { title: "Segmentación de Clientes", description: "Cree niveles VIP y recompensas segmentadas basadas en hábitos de gasto y valor de vida del cliente." },
+          { title: "Niveles de Recompensas", description: "Construya programas escalonados — Plata, Oro, Platino — con beneficios crecientes que impulsen el compromiso." },
+          { title: "Analítica de Compromiso", description: "Rastree tasas de canje, usuarios activos y ROI del programa. Optimice las recompensas basándose en datos reales." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Cómo Funciona",
+        heading: "Lance su programa de recompensas",
+        steps: [
+          { title: "Diseñe Su Programa", description: "Elija entre modelos de cashback, puntos o híbridos. Defina reglas de recompensas y estructuras de niveles." },
+          { title: "Emita Tarjetas de Marca", description: "Distribuya tarjetas físicas o virtuales de marca a los clientes. Las tarjetas se activan en el primer uso." },
+          { title: "Rastree y Optimice", description: "Monitoree el rendimiento del programa en tiempo real. Ajuste las recompensas basándose en datos de compromiso y retención." },
+        ],
+      },
+      cta: {
+        heading: "¿Listo para lanzar su programa de fidelidad?",
+        description: "Únase a las marcas que usan PG Ecom para crear programas de recompensas basados en tarjetas que aumentan la retención y el valor de vida del cliente.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Hablar con ventas",
+      },
+    },
+    chargeCards: {
+      hero: {
+        badge: "Tarjetas de Crédito Empresariales",
+        headingLine1: "Tarjetas de crédito empresariales",
+        headingHighlight: "con facturación flexible",
+        description: "Emita tarjetas de crédito con líneas de crédito y ciclos de facturación adaptados a su negocio. Permita que los equipos gasten con confianza manteniendo el control financiero.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Contactar ventas",
+      },
+      features: {
+        sectionLabel: "Características",
+        heading: "Tarjetas de crédito diseñadas para empresas",
+        description: "Programas de crédito flexibles con control total sobre límites, ciclos de facturación y condiciones de pago.",
+        items: [
+          { title: "Gestión de Línea de Crédito", description: "Establezca y ajuste límites de crédito por tarjeta o por titular. Aumente los límites a medida que crece la confianza." },
+          { title: "Ciclos de Facturación Mensuales", description: "Las transacciones se acumulan durante el período de facturación. Emita estados de cuenta detallados automáticamente." },
+          { title: "Períodos de Gracia", description: "Configure plazos de pago que funcionen para su negocio. Ofrezca términos de 15, 30 o 45 días." },
+          { title: "Generación de Estados de Cuenta", description: "Estados de cuenta mensuales automáticos con detalles de transacciones, fechas de vencimiento y resúmenes de cuenta." },
+          { title: "Controles de Riesgo Crediticio", description: "Monitoreo en tiempo real de la utilización del crédito. Alertas automáticas cuando los titulares se acercan a sus límites." },
+          { title: "Programas Multi-Tarjeta", description: "Emita múltiples tarjetas de crédito bajo una sola cuenta. Establezca límites individuales con facturación compartida." },
+        ],
+      },
+      howItWorks: {
+        sectionLabel: "Cómo Funciona",
+        heading: "Configure su programa de tarjetas de crédito",
+        steps: [
+          { title: "Configure los Términos de Crédito", description: "Establezca límites de crédito, ciclos de facturación y condiciones de pago. Defina parámetros de riesgo y criterios de aprobación." },
+          { title: "Emita Tarjetas de Crédito", description: "Distribuya tarjetas de crédito a empleados o clientes. Cada tarjeta hereda las reglas de crédito de su programa." },
+          { title: "Facture y Cobre", description: "Generación automatizada de estados de cuenta y cobro de pagos. Rastree saldos pendientes en tiempo real." },
+        ],
+      },
+      cta: {
+        heading: "¿Listo para lanzar su programa de tarjetas de crédito?",
+        description: "Únase a las empresas que usan PG Ecom para ofrecer tarjetas de crédito flexibles con facturación automatizada, controles de crédito e informes en tiempo real.",
+        ctaPrimary: "Comenzar a emitir tarjetas",
+        ctaSecondary: "Hablar con ventas",
+      },
+    },
+  },
 };
