@@ -247,18 +247,21 @@ export const fr: Translations = {
         {
           name: "Standard",
           price: "Gratuit",
+          transactionFee: "8 % de frais de transaction",
           description: "Parfait pour démarrer",
           features: ["Jusqu'à 50 produits", "Analyses de base", "Support par email", "1 boutique", "Paiement standard"],
         },
         {
           name: "Medium",
           price: "49 $",
+          transactionFee: "4 % de frais de transaction",
           description: "Pour les entreprises en croissance",
           features: ["Jusqu'à 500 produits", "Analyses avancées", "Support prioritaire", "3 boutiques", "Paiement personnalisé", "Facturation d'abonnement"],
         },
         {
           name: "Premium",
           price: "99 $",
+          transactionFee: "1,5 % de frais de transaction",
           description: "Pour les opérations à grande échelle",
           features: ["Produits illimités", "Analyses en temps réel", "Support téléphonique 24/7", "Boutiques illimitées", "Paiement personnalisé", "Facturation d'abonnement", "Accès API", "Gestionnaire de compte dédié"],
         },

@@ -255,18 +255,21 @@ export const en = {
         {
           name: "Standard",
           price: "Free",
+          transactionFee: "8% transaction fee",
           description: "Perfect for getting started",
           features: ["Up to 50 products", "Basic analytics", "Email support", "1 storefront", "Standard checkout"],
         },
         {
           name: "Medium",
           price: "$49",
+          transactionFee: "4% transaction fee",
           description: "For growing businesses",
           features: ["Up to 500 products", "Advanced analytics", "Priority support", "3 storefronts", "Custom checkout", "Subscription billing"],
         },
         {
           name: "Premium",
           price: "$99",
+          transactionFee: "1.5% transaction fee",
           description: "For large-scale operations",
           features: ["Unlimited products", "Real-time analytics", "24/7 phone support", "Unlimited storefronts", "Custom checkout", "Subscription billing", "API access", "Dedicated account manager"],
         },

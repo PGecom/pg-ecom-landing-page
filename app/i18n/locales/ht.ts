@@ -247,18 +247,21 @@ export const ht: Translations = {
         {
           name: "Estanda",
           price: "Gratis",
+          transactionFee: "8% frè tranzaksyon",
           description: "Pafè pou kòmanse",
           features: ["Jiska 50 pwodwi", "Analitik debaz", "Sipò pa imèl", "1 boutik", "Peman estanda"],
         },
         {
           name: "Mwayen",
           price: "$49",
+          transactionFee: "4% frè tranzaksyon",
           description: "Pou biznis k ap grandi",
           features: ["Jiska 500 pwodwi", "Analitik avanse", "Sipò priyorite", "3 boutik", "Peman pèsonalize", "Faktirasyion abònman"],
         },
         {
           name: "Premyòm",
           price: "$99",
+          transactionFee: "1,5% frè tranzaksyon",
           description: "Pou operasyon a gran echèl",
           features: ["Pwodwi san limit", "Analitik an tan reyèl", "Sipò telefòn 24/7", "Boutik san limit", "Peman pèsonalize", "Faktirasyion abònman", "Aksè API", "Jesyonè kont dedye"],
         },

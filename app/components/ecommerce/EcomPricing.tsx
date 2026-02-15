@@ -43,6 +43,11 @@ export default function EcomPricing() {
                       <span className="text-sm text-gray-500">{t.ecommerce.pricing.monthly}</span>
                     )}
                   </div>
+                  <div className="mt-2">
+                    <span className="inline-flex items-center gap-1 text-xs font-medium text-amber-700 bg-amber-50 border border-amber-100 px-2.5 py-1 rounded-full">
+                      {tier.transactionFee}
+                    </span>
+                  </div>
                 </div>
 
                 <ul className="mt-8 space-y-3">
@@ -57,7 +62,7 @@ export default function EcomPricing() {
                 </ul>
 
                 <a
-                  href="#"
+                  href="https://store.pgecom.com/auth/seller/register"
                   className={`mt-8 block w-full text-center font-semibold py-3 rounded-xl transition-colors ${
                     isPopular
                       ? "bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white"
