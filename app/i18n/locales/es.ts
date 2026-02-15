@@ -44,24 +44,26 @@ export const es: Translations = {
   },
 
   hero: {
-    badge: "Más de 275M de tarjetas creadas en nuestra infraestructura",
+    badge: "Emita tarjetas ilimitadas a través de su proveedor",
     headingLine1: "Emisión de tarjetas",
     headingHighlight: "virtuales y físicas",
     headingLine2: "para su negocio",
-    description: "Cree, distribuya y gestione tarjetas de pago virtuales y físicas. Establezca controles de gasto, habilite recargas prepago e integre con nuestra API lista para desarrolladores.",
+    description: "Cree programas de tarjetas de marca blanca con tarjetas virtuales y físicas. Traiga su propio proveedor o use el nuestro. Establezca controles de gasto, gestione el ciclo de vida de las tarjetas e integre con nuestra API.",
     ctaPrimary: "Comenzar a emitir",
     ctaSecondary: "Contactar ventas",
     trustPci: "Cumple PCI DSS",
     trustInstant: "Tarjetas virtuales instantáneas",
     trustApiReady: "API lista para desarrolladores",
+    trustWhitelabel: "Marca blanca",
+    trustByop: "Compatible BYOP",
     cardVirtual: "Virtual",
     cardPhysical: "Física",
     cardCardholder: "Titular",
     cardExpires: "Vence",
     badgeApproved: "Tarjeta aprobada",
     badgeApprovedDetail: "$2,450.00 en AWS",
-    badgeTopUp: "Recarga completada",
-    badgeTopUpDetail: "$500.00 tarjeta prepago",
+    badgeIssued: "Tarjeta virtual emitida",
+    badgeIssuedDetail: "Visa •••• 4821 creada",
   },
 
   features: {
@@ -73,10 +75,33 @@ export const es: Translations = {
       { title: "Billeteras Digitales", description: "Habilite Apple Pay, Google Pay y Samsung Pay mediante aprovisionamiento en la app o entrada manual." },
       { title: "Cumplimiento y Seguridad", description: "KYC, monitoreo AML y detección de fraude integrados. Aproveche nuestras asociaciones bancarias y experiencia regulatoria." },
       { title: "API para Desarrolladores", description: "APIs RESTful y webhooks para cada evento. Emita tarjetas, defina reglas y gestione programas en código." },
-      { title: "Recarga Prepago", description: "Permita a los usuarios recargar tarjetas prepago al instante mediante dinero móvil, transferencia bancaria o tarjeta a tarjeta." },
       { title: "Verificación de Identidad", description: "Verifique la identidad de los clientes con escaneo de documentos, verificaciones biométricas y cumplimiento KYC en tiempo real." },
-      { title: "Gestión de Cursos", description: "Cree y venda cursos en línea con pagos integrados, seguimiento de estudiantes y generación de certificados." },
-      { title: "Plataforma E-commerce", description: "Lance su tienda en línea con gestión de productos, pago, seguimiento de inventario y venta multicanal." },
+      { title: "Visa & Mastercard", description: "Emita tarjetas en las redes Visa y Mastercard a través de nuestros proveedores certificados, aceptadas en millones de comercios en todo el mundo." },
+    ],
+  },
+
+  whitelabel: {
+    sectionLabel: "Plataforma de Marca Blanca",
+    heading: "Su marca, nuestra infraestructura",
+    description: "Lance programas de tarjetas completamente personalizados con su logotipo, colores y dominio. Sus clientes ven su marca en toda la experiencia.",
+    features: [
+      { title: "Tarjetas personalizadas", description: "Emita tarjetas con el logotipo de su empresa, colores personalizados y diseño. Las tarjetas virtuales y físicas reflejan su identidad de marca." },
+      { title: "Panel personalizado", description: "Ofrezca a su equipo y clientes un panel con su marca, dominio personalizado y experiencia de marca blanca." },
+      { title: "Marca completa", description: "Desde correos hasta recibos y portales de clientes, cada punto de contacto lleva su marca. Experiencia completamente personalizable." },
+    ],
+  },
+
+  byop: {
+    sectionLabel: "Traiga Su Propio Proveedor",
+    heading: "Use cualquier proveedor de emisión de tarjetas",
+    description: "PG Ecom actúa como una capa de plataforma unificada sobre cualquier proveedor de emisión de tarjetas. Traiga sus relaciones de proveedor existentes o elija de nuestra red.",
+    platformLabel: "Capa de Plataforma",
+    platformSubtext: "API y Panel unificados",
+    providerSupported: "Proveedor soportado",
+    benefits: [
+      { title: "Agnóstico de proveedor", description: "Cambie de proveedor sin cambiar su integración. Una sola API para todos los proveedores." },
+      { title: "Experiencia unificada", description: "Panel y API consistentes sin importar qué proveedor impulsa sus tarjetas." },
+      { title: "Mejor economía", description: "Aproveche sus relaciones de proveedor existentes y negocie sus propias tarifas." },
     ],
   },
 
@@ -125,7 +150,7 @@ export const es: Translations = {
     apiItems: [
       { title: "Creación de Tarjetas", desc: "Emita tarjetas virtuales o físicas con una sola llamada API." },
       { title: "Webhooks", desc: "Reciba notificaciones en tiempo real para cada evento de tarjeta y transacción." },
-      { title: "Gestión de Saldos", desc: "Consulte saldos, recargue tarjetas prepago y gestione fondos a través de la API." },
+      { title: "Gestión de Saldos", desc: "Consulte saldos, establezca límites de gasto y gestione fondos a través de la API." },
       { title: "SDKs y Bibliotecas", desc: "Bibliotecas oficiales para Node.js, Python, Ruby, Go y más." },
     ],
   },

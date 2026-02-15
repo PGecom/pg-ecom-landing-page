@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslation } from "../i18n";
 
 export default function Footer() {
@@ -23,10 +24,10 @@ export default function Footer() {
             <h2 className="font-[family-name:var(--font-montserrat)] text-3xl sm:text-4xl font-bold text-white">{t.footer.ctaHeading}</h2>
             <p className="mt-4 text-lg text-gray-400">{t.footer.ctaDescription}</p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="#" className="w-full sm:w-auto bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white font-semibold px-8 py-3.5 rounded-xl transition-colors">
+              <a href="https://app.pgecom.com/signup" className="w-full sm:w-auto bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white font-semibold px-8 py-3.5 rounded-xl transition-colors">
                 {t.footer.ctaPrimary}
               </a>
-              <a href="#" className="w-full sm:w-auto border border-gray-600 hover:border-gray-500 text-white font-semibold px-8 py-3.5 rounded-xl transition-colors">
+              <a href="mailto:info@pgecom.com" className="w-full sm:w-auto border border-gray-600 hover:border-gray-500 text-white font-semibold px-8 py-3.5 rounded-xl transition-colors">
                 {t.footer.ctaSecondary}
               </a>
             </div>
@@ -38,11 +39,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-[var(--primary)] to-[var(--accent)] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">PG</span>
-              </div>
-              <span className="font-[family-name:var(--font-montserrat)] font-bold text-xl text-white">PG Ecom</span>
+            <div className="flex items-center mb-4">
+              <Image src="/pgecom-logo-transparent.png" alt="PG Ecom" width={120} height={40} className="h-10 w-auto brightness-0 invert" />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-6 max-w-xs">{t.footer.brandDescription}</p>
 
@@ -90,7 +88,7 @@ export default function Footer() {
               <a href="#" className="text-gray-500 hover:text-white transition-colors"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg></a>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-500">
-              <a href="mailto:support@pgecom.com" className="hover:text-white transition-colors">support@pgecom.com</a>
+              <a href="mailto:info@pgecom.com" className="hover:text-white transition-colors">info@pgecom.com</a>
             </div>
           </div>
         </div>

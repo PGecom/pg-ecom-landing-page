@@ -44,24 +44,26 @@ export const fr: Translations = {
   },
 
   hero: {
-    badge: "Plus de 275M de cartes créées sur notre infrastructure",
+    badge: "Émettez des cartes illimitées via votre fournisseur",
     headingLine1: "Émission de cartes",
     headingHighlight: "virtuelles et physiques",
     headingLine2: "pour votre entreprise",
-    description: "Créez, distribuez et gérez des cartes de paiement virtuelles et physiques. Définissez des contrôles de dépenses, activez les recharges prépayées et intégrez notre API prête pour les développeurs.",
+    description: "Créez des programmes de cartes en marque blanche avec des cartes virtuelles et physiques. Apportez votre propre fournisseur ou utilisez le nôtre. Définissez des contrôles de dépenses, gérez le cycle de vie des cartes et intégrez notre API.",
     ctaPrimary: "Commencer à émettre",
     ctaSecondary: "Contacter les ventes",
     trustPci: "Conforme PCI DSS",
     trustInstant: "Cartes virtuelles instantanées",
     trustApiReady: "API prête pour les développeurs",
+    trustWhitelabel: "Marque blanche",
+    trustByop: "Compatible BYOP",
     cardVirtual: "Virtuelle",
     cardPhysical: "Physique",
     cardCardholder: "Titulaire",
     cardExpires: "Expire",
     badgeApproved: "Carte approuvée",
     badgeApprovedDetail: "2 450,00 $ chez AWS",
-    badgeTopUp: "Recharge effectuée",
-    badgeTopUpDetail: "500,00 $ carte prépayée",
+    badgeIssued: "Carte virtuelle émise",
+    badgeIssuedDetail: "Visa •••• 4821 créée",
   },
 
   features: {
@@ -73,10 +75,33 @@ export const fr: Translations = {
       { title: "Portefeuilles numériques", description: "Activez Apple Pay, Google Pay et Samsung Pay via le provisionnement in-app ou la saisie manuelle." },
       { title: "Conformité & Sécurité", description: "KYC, surveillance AML et détection de fraude intégrés. Profitez de nos partenariats bancaires et de notre expertise réglementaire." },
       { title: "API orientée développeur", description: "APIs RESTful et webhooks pour chaque événement. Émettez des cartes, définissez des règles et gérez vos programmes en code." },
-      { title: "Recharge prépayée", description: "Permettez aux utilisateurs de recharger instantanément les cartes prépayées via mobile money, virement bancaire ou carte à carte." },
       { title: "Vérification d'identité", description: "Vérifiez l'identité des clients avec numérisation de documents, vérifications biométriques et conformité KYC en temps réel." },
-      { title: "Gestion de cours", description: "Créez et vendez des cours en ligne avec paiements intégrés, suivi des étudiants et génération de certificats." },
-      { title: "Plateforme e-commerce", description: "Lancez votre boutique en ligne avec gestion de produits, paiement, suivi d'inventaire et vente multicanale." },
+      { title: "Visa & Mastercard", description: "Émettez des cartes sur les réseaux Visa et Mastercard via nos fournisseurs certifiés, acceptées chez des millions de commerçants dans le monde." },
+    ],
+  },
+
+  whitelabel: {
+    sectionLabel: "Plateforme Marque Blanche",
+    heading: "Votre marque, notre infrastructure",
+    description: "Lancez des programmes de cartes entièrement personnalisés avec votre logo, vos couleurs et votre domaine. Vos clients voient votre marque tout au long de l'expérience.",
+    features: [
+      { title: "Cartes personnalisées", description: "Émettez des cartes avec le logo de votre entreprise, des couleurs personnalisées et un design unique. Les cartes virtuelles et physiques reflètent votre identité de marque." },
+      { title: "Tableau de bord personnalisé", description: "Offrez à votre équipe et vos clients un tableau de bord avec votre marque, domaine personnalisé et expérience en marque blanche." },
+      { title: "Image de marque complète", description: "Des emails aux reçus en passant par les portails clients, chaque point de contact porte votre marque. Expérience entièrement personnalisable." },
+    ],
+  },
+
+  byop: {
+    sectionLabel: "Apportez Votre Fournisseur",
+    heading: "Utilisez n'importe quel fournisseur d'émission de cartes",
+    description: "PG Ecom agit comme une couche plateforme unifiée sur n'importe quel fournisseur d'émission de cartes. Apportez vos relations fournisseur existantes ou choisissez dans notre réseau.",
+    platformLabel: "Couche Plateforme",
+    platformSubtext: "API & Tableau de bord unifiés",
+    providerSupported: "Fournisseur supporté",
+    benefits: [
+      { title: "Agnostique fournisseur", description: "Changez de fournisseur sans modifier votre intégration. Une seule API pour tous les fournisseurs." },
+      { title: "Expérience unifiée", description: "Tableau de bord et API cohérents quel que soit le fournisseur qui alimente vos cartes." },
+      { title: "Meilleure économie", description: "Tirez parti de vos relations fournisseur existantes et négociez vos propres tarifs." },
     ],
   },
 
@@ -125,7 +150,7 @@ export const fr: Translations = {
     apiItems: [
       { title: "Création de carte", desc: "Émettez des cartes virtuelles ou physiques avec un seul appel API." },
       { title: "Webhooks", desc: "Recevez des notifications en temps réel pour chaque événement de carte et de transaction." },
-      { title: "Gestion des soldes", desc: "Vérifiez les soldes, rechargez les cartes prépayées et gérez les fonds via l'API." },
+      { title: "Gestion des soldes", desc: "Vérifiez les soldes, définissez des limites de dépenses et gérez les fonds via l'API." },
       { title: "SDKs & Bibliothèques", desc: "Bibliothèques officielles pour Node.js, Python, Ruby, Go et plus." },
     ],
   },

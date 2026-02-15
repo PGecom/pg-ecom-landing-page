@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { useTranslation } from "../i18n";
 import LanguageSwitcher from "./LanguageSwitcher";
 
@@ -79,18 +80,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-[var(--primary)] to-[var(--accent)] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">PG</span>
-            </div>
-            <span className="font-[family-name:var(--font-montserrat)] font-bold text-xl text-gray-900">
-              PG Ecom
-            </span>
+          <div className="flex items-center">
+            <Image src="/pgecom-logo-transparent.png" alt="PG Ecom" width={120} height={40} className="h-10 w-auto" priority />
           </div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="/" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               {t.navbar.home}
             </a>
             <div
@@ -121,11 +117,11 @@ export default function Navbar() {
           {/* Auth Buttons + Language Switcher */}
           <div className="hidden md:flex items-center gap-3">
             <LanguageSwitcher />
-            <a href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="https://app.pgecom.com/signin" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               {t.navbar.logIn}
             </a>
             <a
-              href="#"
+              href="https://app.pgecom.com/signup"
               className="bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
             >
               {t.navbar.signUp}
@@ -313,13 +309,13 @@ export default function Navbar() {
             )}
           </div>
 
-          <a href="#" className="block py-3 text-sm font-medium text-gray-700 border-b border-gray-50">{t.navbar.home}</a>
+          <a href="/" className="block py-3 text-sm font-medium text-gray-700 border-b border-gray-50">{t.navbar.home}</a>
           <a href="#dashboard" className="block py-3 text-sm font-medium text-gray-700 border-b border-gray-50">{t.navbar.resources}</a>
 
           <div className="pt-4 flex flex-col gap-2">
             <LanguageSwitcher />
-            <a href="#" className="text-sm font-medium text-gray-600 py-2">{t.navbar.logIn}</a>
-            <a href="#" className="bg-[var(--primary)] text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center">
+            <a href="https://app.pgecom.com/signin" className="text-sm font-medium text-gray-600 py-2">{t.navbar.logIn}</a>
+            <a href="https://app.pgecom.com/signup" className="bg-[var(--primary)] text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center">
               {t.navbar.signUp}
             </a>
           </div>

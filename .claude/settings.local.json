@@ -8,7 +8,10 @@
       "WebSearch",
       "WebFetch(domain:prepaid.pgecom.com)",
       "WebFetch(domain:idverificationhub.com)",
-      "WebFetch(domain:school.pgecom.com)"
+      "WebFetch(domain:school.pgecom.com)",
+      "Bash(npx next build:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)"
     ]
   }
 }

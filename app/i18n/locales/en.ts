@@ -44,24 +44,26 @@ export const en = {
 
   // ── Hero ────────────────────────────────────────────
   hero: {
-    badge: "275M+ cards created on our infrastructure",
+    badge: "Issue unlimited cards through your provider",
     headingLine1: "Virtual and physical",
     headingHighlight: "card issuing",
     headingLine2: "for your business",
-    description: "Create, distribute, and manage virtual and physical payment cards. Set spend controls, enable prepaid top-ups, and integrate with our developer-ready API.",
+    description: "Create whitelabel card programs with virtual and physical cards. Bring your own provider or use ours. Set spend controls, manage card lifecycles, and integrate with our developer-ready API.",
     ctaPrimary: "Start issuing cards",
     ctaSecondary: "Contact sales",
     trustPci: "PCI DSS Compliant",
     trustInstant: "Instant virtual cards",
     trustApiReady: "Developer-ready API",
+    trustWhitelabel: "Whitelabel ready",
+    trustByop: "BYOP compatible",
     cardVirtual: "Virtual",
     cardPhysical: "Physical",
     cardCardholder: "Cardholder",
     cardExpires: "Expires",
     badgeApproved: "Card approved",
     badgeApprovedDetail: "$2,450.00 at AWS",
-    badgeTopUp: "Top-up complete",
-    badgeTopUpDetail: "$500.00 prepaid card",
+    badgeIssued: "Virtual card issued",
+    badgeIssuedDetail: "Visa •••• 4821 created",
   },
 
   // ── Features ────────────────────────────────────────
@@ -74,10 +76,35 @@ export const en = {
       { title: "Digital Wallets", description: "Enable Apple Pay, Google Pay, and Samsung Pay through in-app provisioning or manual card entry." },
       { title: "Compliance & Security", description: "Built-in KYC, AML monitoring, and fraud detection. Leverage our bank partnerships and regulatory expertise." },
       { title: "Developer-First API", description: "RESTful APIs and webhooks for every card event. Issue cards, set rules, and manage programs in code." },
-      { title: "Prepaid Top Up", description: "Let users top up prepaid cards instantly via mobile money, bank transfer, or card-to-card funding." },
       { title: "Identity Verification", description: "Verify customer identities with document scanning, biometric checks, and real-time KYC compliance." },
-      { title: "Courses Management", description: "Create and sell online courses with built-in payments, student tracking, and certificate generation." },
-      { title: "Ecommerce Platform", description: "Launch your online store with product management, checkout, inventory tracking, and multi-channel selling." },
+      { title: "Visa & Mastercard", description: "Issue cards on Visa and Mastercard networks through our certified provider partners, accepted at millions of merchants worldwide." },
+    ],
+  },
+
+  // ── Whitelabel ─────────────────────────────────────
+  whitelabel: {
+    sectionLabel: "Whitelabel Platform",
+    heading: "Your brand, our infrastructure",
+    description: "Launch fully branded card programs with your logo, colors, and domain. Your customers see your brand throughout the entire experience.",
+    features: [
+      { title: "Branded Cards", description: "Issue cards with your company logo, custom colors, and design. Virtual and physical cards reflect your brand identity." },
+      { title: "Branded Dashboard", description: "Give your team and customers a dashboard with your branding, custom domain, and white-labeled experience." },
+      { title: "Complete Branding", description: "From emails to receipts to customer portals, every touchpoint carries your brand. Fully customizable experience." },
+    ],
+  },
+
+  // ── Bring Your Own Provider ───────────────────────
+  byop: {
+    sectionLabel: "Bring Your Own Provider",
+    heading: "Use any card issuing provider",
+    description: "PG Ecom acts as a unified platform layer on top of any card issuing provider. Bring your existing provider relationships or choose from our network.",
+    platformLabel: "Platform Layer",
+    platformSubtext: "Unified API & Dashboard",
+    providerSupported: "Supported provider",
+    benefits: [
+      { title: "Provider Agnostic", description: "Switch providers without changing your integration. One API for all providers." },
+      { title: "Unified Experience", description: "Consistent dashboard and API regardless of which provider powers your cards." },
+      { title: "Best Economics", description: "Leverage your existing provider relationships and negotiate your own rates." },
     ],
   },
 
@@ -129,7 +156,7 @@ export const en = {
     apiItems: [
       { title: "Card Creation", desc: "Issue virtual or physical cards with a single API call." },
       { title: "Webhooks", desc: "Get real-time notifications for every card and transaction event." },
-      { title: "Balance Management", desc: "Check balances, top up prepaid cards, and manage funds via API." },
+      { title: "Balance Management", desc: "Check balances, set spending limits, and manage funds via API." },
       { title: "SDKs & Libraries", desc: "Official libraries for Node.js, Python, Ruby, Go, and more." },
     ],
   },

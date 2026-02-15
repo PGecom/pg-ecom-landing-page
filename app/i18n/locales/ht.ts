@@ -44,24 +44,26 @@ export const ht: Translations = {
   },
 
   hero: {
-    badge: "Plis pase 275M kat kreye sou enfrastrikti nou",
+    badge: "Kreye kat san limit atravè founisè ou",
     headingLine1: "Emisyon kat",
     headingHighlight: "vityèl ak fizik",
     headingLine2: "pou biznis ou",
-    description: "Kreye, distribye ak jere kat peman vityèl ak fizik. Mete kontwòl depans, aktive rechaj prepaye epi entegre ak API nou ki prè pou devlopè.",
+    description: "Kreye pwogram kat ak mak ou, avèk kat vityèl ak fizik. Pote pwòp founisè ou oswa sèvi ak pa nou an. Mete kontwòl depans, jere sik lavi kat yo epi entegre ak API nou.",
     ctaPrimary: "Kòmanse kreye kat",
     ctaSecondary: "Kontakte vant",
     trustPci: "Konfòm PCI DSS",
     trustInstant: "Kat vityèl enstantane",
     trustApiReady: "API prè pou devlopè",
+    trustWhitelabel: "Mak blanch prè",
+    trustByop: "Konpatib BYOP",
     cardVirtual: "Vityèl",
     cardPhysical: "Fizik",
     cardCardholder: "Titilè",
     cardExpires: "Ekspire",
     badgeApproved: "Kat apwouve",
     badgeApprovedDetail: "$2,450.00 nan AWS",
-    badgeTopUp: "Rechaj fini",
-    badgeTopUpDetail: "$500.00 kat prepaye",
+    badgeIssued: "Kat vityèl kreye",
+    badgeIssuedDetail: "Visa •••• 4821 kreye",
   },
 
   features: {
@@ -73,10 +75,33 @@ export const ht: Translations = {
       { title: "Bous Nimerik", description: "Aktive Apple Pay, Google Pay ak Samsung Pay atravè pwovizònman nan aplikasyon oswa antre manyèl." },
       { title: "Konformite & Sekirite", description: "KYC, siveyans AML ak deteksyon fwod entegre. Pwofite de patenarya bank nou yo ak ekspètiz regilatyè." },
       { title: "API pou Devlopè", description: "API RESTful ak webhooks pou chak evènman kat. Kreye kat, defini règ ak jere pwogram nan kòd." },
-      { title: "Rechaj Prepaye", description: "Pèmèt itilizatè yo rechaje kat prepaye enstantaneman atravè lajan mobil, transfè bank oswa kat a kat." },
       { title: "Verifikasyon Idantite", description: "Verifye idantite kliyan ak eskanè dokiman, verifikasyon byometrik ak konfòmite KYC an tan reyèl." },
-      { title: "Jesyon Kou", description: "Kreye ak vann kou an liy ak peman entegre, swivi etidyan ak jenerasyon sètifika." },
-      { title: "Platfòm E-komès", description: "Lanse boutik an liy ou ak jesyon pwodwi, peman, swivi envantè ak vant multikanal." },
+      { title: "Visa & Mastercard", description: "Kreye kat sou rezo Visa ak Mastercard atravè patnè founisè sètifye nou yo, aksepte nan dè milyon machan nan tout mond lan." },
+    ],
+  },
+
+  whitelabel: {
+    sectionLabel: "Platfòm Mak Blanch",
+    heading: "Mak ou, enfrastrikti nou",
+    description: "Lanse pwogram kat konplè ak mak ou, koulè ou ak domèn ou. Kliyan ou yo wè mak ou nan tout eksperyans lan.",
+    features: [
+      { title: "Kat ak mak ou", description: "Kreye kat ak logo konpayi ou, koulè pèsonalize ak konsepsyon. Kat vityèl ak fizik reflete idantite mak ou." },
+      { title: "Tablo bò ak mak ou", description: "Bay ekip ou ak kliyan ou yon tablo bò ak mak ou, domèn pèsonalize ak eksperyans mak blanch." },
+      { title: "Mak konplè", description: "Depi imèl jiska resi jiska pòtay kliyan, chak pwen kontak pote mak ou. Eksperyans konplètman pèsonalizab." },
+    ],
+  },
+
+  byop: {
+    sectionLabel: "Pote Pwòp Founisè Ou",
+    heading: "Itilize nenpòt founisè emisyon kat",
+    description: "PG Ecom fonksyone tankou yon kouch platfòm inifye sou nenpòt founisè emisyon kat. Pote relasyon founisè ou genyen deja oswa chwazi nan rezo nou an.",
+    platformLabel: "Kouch Platfòm",
+    platformSubtext: "API & Tablo bò inifye",
+    providerSupported: "Founisè sipòte",
+    benefits: [
+      { title: "Agnostik founisè", description: "Chanje founisè san chanje entegrasyon ou. Yon sèl API pou tout founisè." },
+      { title: "Eksperyans inifye", description: "Tablo bò ak API konsistan kèlkeswa founisè ki alimante kat ou yo." },
+      { title: "Pi bon ekonomi", description: "Pwofite de relasyon founisè ou genyen deja epi negosye pwòp tarif ou." },
     ],
   },
 
@@ -125,7 +150,7 @@ export const ht: Translations = {
     apiItems: [
       { title: "Kreyasyon Kat", desc: "Kreye kat vityèl oswa fizik ak yon sèl apèl API." },
       { title: "Webhooks", desc: "Resevwa notifikasyon an tan reyèl pou chak evènman kat ak tranzaksyon." },
-      { title: "Jesyon Balans", desc: "Tcheke balans, rechaje kat prepaye ak jere fon atravè API." },
+      { title: "Jesyon Balans", desc: "Tcheke balans, mete limit depans ak jere fon atravè API." },
       { title: "SDK & Bibliyotèk", desc: "Bibliyotèk ofisyèl pou Node.js, Python, Ruby, Go ak plis." },
     ],
   },

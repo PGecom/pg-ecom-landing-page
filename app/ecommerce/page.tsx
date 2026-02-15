@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 import EcomHero from "../components/ecommerce/EcomHero";
 import EcomFeatures from "../components/ecommerce/EcomFeatures";
@@ -7,6 +8,26 @@ import EcomInvoice from "../components/ecommerce/EcomInvoice";
 import EcomPricing from "../components/ecommerce/EcomPricing";
 import EcomCTA from "../components/ecommerce/EcomCTA";
 import Footer from "../components/Footer";
+
+export const metadata: Metadata = {
+  title: "Ecommerce Platform",
+  description:
+    "Build, launch, and scale your online store with product management, payment processing, multi-shop support, print on demand, and multi-channel selling.",
+  openGraph: {
+    title: "PG Ecom - Ecommerce Platform for Online Stores",
+    description:
+      "Build, launch, and scale your online store with product management, MonCash and Stripe payments, multi-shop support, and multi-channel selling.",
+    url: "https://www.pgecom.com/ecommerce",
+  },
+  twitter: {
+    title: "PG Ecom - Ecommerce Platform for Online Stores",
+    description:
+      "Build, launch, and scale your online store with product management, MonCash and Stripe payments, multi-shop support, and multi-channel selling.",
+  },
+  alternates: {
+    canonical: "https://www.pgecom.com/ecommerce",
+  },
+};
 
 export default function EcommercePage() {
   return (
