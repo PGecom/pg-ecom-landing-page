@@ -24,7 +24,7 @@ export default function CoursesStudents() {
           {/* Left: Student dashboard mockup */}
           <div className="bg-white rounded-2xl border border-gray-200 shadow-xl p-6 order-2 lg:order-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center font-bold text-sm">JD</div>
+              <div className="w-10 h-10 rounded-full bg-indigo-50 text-[var(--primary)] flex items-center justify-center font-bold text-sm">JD</div>
               <div>
                 <div className="text-sm font-semibold text-gray-900">Welcome back, Jane!</div>
                 <div className="text-xs text-gray-500">3 courses in progress</div>
@@ -34,7 +34,7 @@ export default function CoursesStudents() {
             {/* Progress cards */}
             <div className="space-y-3 mb-6">
               {[
-                { name: "Web Development Bootcamp", progress: 75, color: "bg-violet-500" },
+                { name: "Web Development Bootcamp", progress: 75, color: "bg-indigo-500" },
                 { name: "UI/UX Design Mastery", progress: 60, color: "bg-purple-500" },
                 { name: "Data Science Fundamentals", progress: 45, color: "bg-indigo-500" },
               ].map((course, i) => (
@@ -67,14 +67,14 @@ export default function CoursesStudents() {
 
           {/* Right: Text */}
           <div className="order-1 lg:order-2">
-            <span className="text-sm font-semibold text-violet-600 uppercase tracking-wide">{t.courses.students.sectionLabel}</span>
+            <span className="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">{t.courses.students.sectionLabel}</span>
             <h2 className="font-[family-name:var(--font-montserrat)] mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{t.courses.students.heading}</h2>
             <p className="mt-4 text-lg text-gray-500">{t.courses.students.description}</p>
 
             <div className="mt-8 space-y-4">
               {t.courses.students.benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-violet-100 text-violet-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-lg bg-indigo-50 text-[var(--primary)] flex items-center justify-center flex-shrink-0">
                     {benefitIcons[index]}
                   </div>
                   <div>

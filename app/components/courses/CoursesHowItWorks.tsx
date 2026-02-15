@@ -19,7 +19,7 @@ export default function CoursesHowItWorks() {
     <section id="how-it-works" className="py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wide">{t.courses.howItWorks.sectionLabel}</span>
+          <span className="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">{t.courses.howItWorks.sectionLabel}</span>
           <h2 className="font-[family-name:var(--font-montserrat)] mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{t.courses.howItWorks.heading}</h2>
         </div>
 
@@ -27,10 +27,10 @@ export default function CoursesHowItWorks() {
           {t.courses.howItWorks.steps.map((step, index) => (
             <div key={index} className="relative text-center">
               {/* Step number */}
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-violet-100 text-violet-600 mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-indigo-50 text-[var(--primary)] mb-6">
                 {stepIcons[index]}
               </div>
-              <div className="absolute -top-2 left-1/2 ml-6 w-8 h-8 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center">
+              <div className="absolute -top-2 left-1/2 ml-6 w-8 h-8 rounded-full bg-[var(--primary)] text-white text-sm font-bold flex items-center justify-center">
                 {index + 1}
               </div>
               <h3 className="text-lg font-semibold text-gray-900">{step.title}</h3>

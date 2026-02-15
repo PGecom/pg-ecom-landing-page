@@ -24,7 +24,8 @@ export const metadata: Metadata = {
   description:
     "Create, distribute, and manage virtual and physical payment cards for your business. Whitelabel card programs, identity verification, ecommerce, and developer-ready APIs.",
   icons: {
-    icon: "/pglogo-favicon.png",
+    icon: "/pgecom-logo-transparent.png",
+    apple: "/pgecom-logo-transparent.png",
   },
   openGraph: {
     type: "website",

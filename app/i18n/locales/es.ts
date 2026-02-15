@@ -613,18 +613,21 @@ export const es: Translations = {
         {
           name: "Starter",
           price: "Gratis",
+          transactionFee: "10% comisión por transacción",
           description: "Perfecto para comenzar",
           features: ["Hasta 5 cursos", "Analítica básica", "Gestión de estudiantes", "Soporte por email", "Certificados estándar", "Funciones de comunidad"],
         },
         {
           name: "Professional",
           price: "$29",
+          transactionFee: "5% comisión por transacción",
           description: "Para escuelas en crecimiento",
           features: ["Cursos ilimitados", "Analítica avanzada", "Certificados personalizados", "Soporte prioritario", "Marca personalizada", "Procesamiento de pagos", "Integraciones con Zapier", "Soporte multi-idioma"],
         },
         {
           name: "Enterprise",
           price: "$99",
+          transactionFee: "2% comisión por transacción",
           description: "Para grandes instituciones",
           features: ["Todo lo de Professional", "Solución de marca blanca", "Dominio personalizado", "Acceso completo a API", "Gerente de cuenta dedicado", "Integraciones avanzadas", "Gestión multi-escuela", "Reportes personalizados"],
         },

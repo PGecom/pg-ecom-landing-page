@@ -17,13 +17,13 @@ export default function CoursesCTA() {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#"
-            className="w-full sm:w-auto bg-violet-600 hover:bg-violet-700 text-white font-semibold px-8 py-3.5 rounded-xl text-base transition-all hover:shadow-lg hover:shadow-violet-200"
+            href="https://school.pgecom.com/auth/signup"
+            className="w-full sm:w-auto bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white font-semibold px-8 py-3.5 rounded-xl text-base transition-all hover:shadow-lg hover:shadow-indigo-200"
           >
             {t.courses.cta.ctaPrimary}
           </a>
           <a
-            href="#"
+            href="#courses-pricing"
             className="w-full sm:w-auto flex items-center justify-center gap-2 border border-gray-200 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-8 py-3.5 rounded-xl text-base transition-all"
           >
             {t.courses.cta.ctaSecondary}

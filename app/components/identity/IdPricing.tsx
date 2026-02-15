@@ -72,7 +72,7 @@ export default function IdPricing() {
                 </ul>
 
                 <a
-                  href="#"
+                  href="https://www.idverificationhub.com/auth/register"
                   className={`block w-full text-center font-semibold py-2.5 rounded-xl text-sm transition-colors ${
                     isPopular
                       ? "bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white"

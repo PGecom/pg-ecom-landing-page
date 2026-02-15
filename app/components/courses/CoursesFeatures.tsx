@@ -37,15 +37,15 @@ export default function CoursesFeatures() {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wide">{t.courses.features.sectionLabel}</span>
+          <span className="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">{t.courses.features.sectionLabel}</span>
           <h2 className="font-[family-name:var(--font-montserrat)] mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{t.courses.features.heading}</h2>
           <p className="mt-4 text-lg text-gray-500">{t.courses.features.description}</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {t.courses.features.items.map((feature, index) => (
-            <div key={index} className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-violet-100 hover:shadow-lg hover:shadow-violet-50 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center group-hover:bg-violet-600 group-hover:text-white transition-colors duration-300">
+            <div key={index} className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-indigo-100 hover:shadow-lg hover:shadow-indigo-50 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-indigo-50 text-[var(--primary)] flex items-center justify-center group-hover:bg-[var(--primary)] group-hover:text-white transition-colors duration-300">
                 {featureIcons[index]}
               </div>
               <h3 className="mt-4 text-base font-semibold text-gray-900">{feature.title}</h3>

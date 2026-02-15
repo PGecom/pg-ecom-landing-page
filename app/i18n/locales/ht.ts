@@ -613,18 +613,21 @@ export const ht: Translations = {
         {
           name: "Debitè",
           price: "Gratis",
+          transactionFee: "10% frè tranzaksyon",
           description: "Pafè pou kòmanse",
           features: ["Jiska 5 kou", "Analitik debaz", "Jesyon etidyan", "Sipò pa imèl", "Sètifika estanda", "Fonksyonalite kominote"],
         },
         {
           name: "Pwofesyonèl",
           price: "$29",
+          transactionFee: "5% frè tranzaksyon",
           description: "Pou lekòl k ap grandi",
           features: ["Kou san limit", "Analitik avanse", "Sètifika pèsonalize", "Sipò priyorite", "Mak pèsonalize", "Pwosesis peman", "Entegrasyon Zapier", "Sipò milti-lang"],
         },
         {
           name: "Antrepriz",
           price: "$99",
+          transactionFee: "2% frè tranzaksyon",
           description: "Pou gwo enstitisyon",
           features: ["Tout sa ki nan Pwofesyonèl", "Solisyon mak blanch", "Domèn pèsonalize", "Aksè API konplè", "Jesyonè kont dedye", "Entegrasyon avanse", "Jesyon milti-lekòl", "Rapò pèsonalize"],
         },

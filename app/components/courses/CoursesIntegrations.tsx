@@ -25,14 +25,14 @@ export default function CoursesIntegrations() {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wide">{t.courses.integrations.sectionLabel}</span>
+          <span className="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">{t.courses.integrations.sectionLabel}</span>
           <h2 className="font-[family-name:var(--font-montserrat)] mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{t.courses.integrations.heading}</h2>
           <p className="mt-4 text-lg text-gray-500">{t.courses.integrations.description}</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {t.courses.integrations.partners.map((partner) => (
-            <div key={partner} className="bg-white rounded-xl border border-gray-100 p-4 flex flex-col items-center gap-3 hover:border-violet-100 hover:shadow-lg hover:shadow-violet-50 transition-all duration-300">
+            <div key={partner} className="bg-white rounded-xl border border-gray-100 p-4 flex flex-col items-center gap-3 hover:border-indigo-100 hover:shadow-lg hover:shadow-indigo-50 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-gray-50 text-gray-600 flex items-center justify-center">
                 {partnerIcons[partner] || (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -23,14 +23,14 @@ export default function CoursesInstructors() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: Text */}
           <div>
-            <span className="text-sm font-semibold text-violet-600 uppercase tracking-wide">{t.courses.instructors.sectionLabel}</span>
+            <span className="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">{t.courses.instructors.sectionLabel}</span>
             <h2 className="font-[family-name:var(--font-montserrat)] mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{t.courses.instructors.heading}</h2>
             <p className="mt-4 text-lg text-gray-500">{t.courses.instructors.description}</p>
 
             <div className="mt-8 space-y-4">
               {t.courses.instructors.capabilities.map((cap, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-violet-100 text-violet-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-lg bg-indigo-50 text-[var(--primary)] flex items-center justify-center flex-shrink-0">
                     {capabilityIcons[index]}
                   </div>
                   <div>
@@ -51,16 +51,16 @@ export default function CoursesInstructors() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-xs font-medium text-gray-500">Draft</span>
-                <div className="w-10 h-5 bg-violet-600 rounded-full relative">
+                <div className="w-10 h-5 bg-[var(--primary)] rounded-full relative">
                   <div className="absolute right-0.5 top-0.5 w-4 h-4 bg-white rounded-full" />
                 </div>
-                <span className="text-xs font-medium text-violet-600">Published</span>
+                <span className="text-xs font-medium text-[var(--primary)]">Published</span>
               </div>
             </div>
             <div className="space-y-3">
               {["Introduction to HTML", "CSS Fundamentals", "JavaScript Basics", "React Essentials", "Final Project"].map((lesson, i) => (
                 <div key={i} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl">
-                  <div className="w-8 h-8 rounded-lg bg-violet-100 text-violet-600 text-xs font-bold flex items-center justify-center">{i + 1}</div>
+                  <div className="w-8 h-8 rounded-lg bg-indigo-50 text-[var(--primary)] text-xs font-bold flex items-center justify-center">{i + 1}</div>
                   <div className="flex-1">
                     <div className="text-sm font-medium text-gray-900">{lesson}</div>
                     <div className="text-xs text-gray-400">{i === 4 ? "Assignment" : "Video + Quiz"}</div>

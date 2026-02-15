@@ -9,7 +9,7 @@ export default function CoursesTestimonials() {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wide">{t.courses.testimonials.sectionLabel}</span>
+          <span className="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">{t.courses.testimonials.sectionLabel}</span>
           <h2 className="font-[family-name:var(--font-montserrat)] mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{t.courses.testimonials.heading}</h2>
         </div>
 
@@ -28,7 +28,7 @@ export default function CoursesTestimonials() {
               <p className="text-sm text-gray-600 leading-relaxed italic">&ldquo;{item.quote}&rdquo;</p>
 
               <div className="mt-4 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center font-bold text-sm">
+                <div className="w-10 h-10 rounded-full bg-indigo-50 text-[var(--primary)] flex items-center justify-center font-bold text-sm">
                   {item.name.split(" ").map((n) => n[0]).join("")}
                 </div>
                 <div>

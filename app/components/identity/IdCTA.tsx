@@ -29,13 +29,13 @@ export default function IdCTA() {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#"
+            href="https://www.idverificationhub.com/auth/register"
             className="w-full sm:w-auto bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white font-semibold px-8 py-3.5 rounded-xl text-base transition-all hover:shadow-lg hover:shadow-indigo-200"
           >
             {t.identity.cta.ctaPrimary}
           </a>
           <a
-            href="#"
+            href="https://www.idverificationhub.com/auth/login"
             className="w-full sm:w-auto flex items-center justify-center gap-2 border border-gray-200 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-8 py-3.5 rounded-xl text-base transition-all"
           >
             {t.identity.cta.ctaSecondary}
