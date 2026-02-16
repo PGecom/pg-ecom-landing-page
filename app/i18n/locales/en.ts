@@ -16,7 +16,6 @@ export const en = {
       { title: "Identity Verification", description: "Verify customer identities with KYC and document checks." },
       { title: "Courses Management", description: "Create, manage, and sell online courses with ease." },
       { title: "Ecommerce", description: "Launch and manage your online store with powerful tools." },
-      { title: "Developer API", description: "RESTful APIs and webhooks for every card event." },
     ],
     companyItems: [
       { title: "About us", description: "Learn about our story and our mission statement.", badge: "" },

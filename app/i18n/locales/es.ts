@@ -17,7 +17,6 @@ export const es: Translations = {
       { title: "Verificación de Identidad", description: "Verifique la identidad de los clientes con KYC y verificación de documentos." },
       { title: "Gestión de Cursos", description: "Cree, gestione y venda cursos en línea con facilidad." },
       { title: "E-commerce", description: "Lance y gestione su tienda en línea con herramientas poderosas." },
-      { title: "API para Desarrolladores", description: "APIs RESTful y webhooks para cada evento de tarjeta." },
     ],
     companyItems: [
       { title: "Sobre nosotros", description: "Conozca nuestra historia y nuestra misión.", badge: "" },

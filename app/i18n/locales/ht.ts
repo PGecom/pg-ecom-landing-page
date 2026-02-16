@@ -17,7 +17,6 @@ export const ht: Translations = {
       { title: "Verifikasyon Idantite", description: "Verifye idantite kliyan yo ak KYC ak kontwòl dokiman." },
       { title: "Jesyon Kou", description: "Kreye, jere ak vann kou an liy fasilman." },
       { title: "E-komès", description: "Lanse ak jere boutik an liy ou ak zouti pwisan." },
-      { title: "API Devlopè", description: "API RESTful ak webhooks pou chak evènman kat." },
     ],
     companyItems: [
       { title: "Sou nou", description: "Aprann istwa nou ak misyon nou.", badge: "" },
