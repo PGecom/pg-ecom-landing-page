@@ -18,8 +18,8 @@ export default function Footer() {
   const linkRoutes: Record<string, (string | null)[]> = {
     product: ["/", "/prepaid", "/identity", null, "/ecommerce", "/courses", null, null],
     useCases: ["/use-cases/expense-management", "/use-cases/fleet-cards", "/use-cases/travel-platforms", "/use-cases/loyalty-programs", "/use-cases/charge-cards"],
-    resources: [null, null, null, null, null],
-    legal: [null, null, null, null, null],
+    resources: ["https://help.pgecom.com/", "https://help.pgecom.com/", "https://help.pgecom.com/", "https://help.pgecom.com/", "https://help.pgecom.com/"],
+    legal: ["/company/legal/terms", "/company/legal/privacy", "/company/legal/aml", "/company/legal/cookies", "/company/legal/gdpr"],
   };
 
   return (
@@ -74,7 +74,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {section.links.map((link, idx) => (
                   <li key={link}>
-                    <a href={linkRoutes[section.key]?.[idx] ?? "#"} className="text-sm text-gray-400 hover:text-white transition-colors">{link}</a>
+                    <a href={linkRoutes[section.key]?.[idx] ?? "#"} {...((linkRoutes[section.key]?.[idx] ?? "").startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="text-sm text-gray-400 hover:text-white transition-colors">{link}</a>
                   </li>
                 ))}
               </ul>
