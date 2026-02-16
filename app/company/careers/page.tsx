@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Careers",
+  title: "Careers — Join Our Remote-First Fintech Team",
   description:
-    "Join PG Ecom and help build the financial infrastructure for modern businesses. We're always looking for talented people.",
+    "Join PG Ecom and help build the financial infrastructure for modern businesses. Remote-first, modern tech stack, and impact at scale. We're always looking for talent.",
   openGraph: {
-    title: "Careers at PG Ecom",
-    description: "Join PG Ecom and help build the financial infrastructure for modern businesses.",
+    title: "Careers at PG Ecom — Join Our Remote-First Team",
+    description:
+      "Join PG Ecom and help build the financial infrastructure for modern businesses. Remote-first, modern tech stack, and impact at scale. We're always looking for talent.",
     url: "https://www.pgecom.com/company/careers",
+  },
+  twitter: {
+    title: "Careers at PG Ecom — Join Our Remote-First Team",
+    description:
+      "Join PG Ecom and help build the financial infrastructure for modern businesses. Remote-first, modern tech stack, and impact at scale. We're always looking for talent.",
   },
   alternates: { canonical: "https://www.pgecom.com/company/careers" },
 };
@@ -17,6 +24,17 @@ export const metadata: Metadata = {
 export default function CareersPage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 2, name: "Company", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 3, name: "Careers", item: "https://www.pgecom.com/company/careers" },
+          ],
+        }}
+      />
       <Navbar />
       <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">

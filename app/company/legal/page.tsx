@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Legal",
+  title: "Legal — Terms, Privacy Policy & Compliance",
   description:
-    "PG Ecom legal information including Terms of Service, Privacy Policy, AML Policy, and compliance documentation.",
+    "PG Ecom legal information including Terms of Service, Privacy Policy, AML Policy, Cookie Policy, and GDPR compliance documentation for all products and services.",
   openGraph: {
-    title: "PG Ecom - Legal",
-    description: "PG Ecom legal information including Terms of Service, Privacy Policy, and AML Policy.",
+    title: "PG Ecom — Legal Documents & Policies",
+    description:
+      "PG Ecom legal information including Terms of Service, Privacy Policy, AML Policy, Cookie Policy, and GDPR compliance documentation for all products and services.",
     url: "https://www.pgecom.com/company/legal",
+  },
+  twitter: {
+    title: "PG Ecom — Legal Documents & Policies",
+    description:
+      "PG Ecom legal information including Terms of Service, Privacy Policy, AML Policy, Cookie Policy, and GDPR compliance documentation for all products and services.",
   },
   alternates: { canonical: "https://www.pgecom.com/company/legal" },
 };
@@ -17,6 +24,17 @@ export const metadata: Metadata = {
 export default function LegalPage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 2, name: "Company", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 3, name: "Legal", item: "https://www.pgecom.com/company/legal" },
+          ],
+        }}
+      />
       <Navbar />
       <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">

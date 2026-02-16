@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Articles",
+  title: "Blog & Articles — Fintech Insights & Updates",
   description:
-    "News, writings, press releases, and resources from PG Ecom.",
+    "Read the latest articles, insights, and product updates from PG Ecom on card issuing, ecommerce, identity verification, and digital financial services.",
   openGraph: {
-    title: "PG Ecom - Articles",
-    description: "News, writings, press releases, and resources from PG Ecom.",
+    title: "PG Ecom — Blog & Articles",
+    description:
+      "Read the latest articles, insights, and product updates from PG Ecom on card issuing, ecommerce, identity verification, and digital financial services.",
     url: "https://www.pgecom.com/company/articles",
+  },
+  twitter: {
+    title: "PG Ecom — Blog & Articles",
+    description:
+      "Read the latest articles, insights, and product updates from PG Ecom on card issuing, ecommerce, identity verification, and digital financial services.",
   },
   alternates: { canonical: "https://www.pgecom.com/company/articles" },
 };
@@ -17,6 +24,17 @@ export const metadata: Metadata = {
 export default function ArticlesPage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 2, name: "Company", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 3, name: "Articles", item: "https://www.pgecom.com/company/articles" },
+          ],
+        }}
+      />
       <Navbar />
       <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">

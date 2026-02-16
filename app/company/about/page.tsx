@@ -1,16 +1,22 @@
 import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About PG Ecom — Financial Infrastructure for Business",
   description:
-    "Learn about PG Ecom's mission to make card issuing, ecommerce, and financial infrastructure accessible to businesses worldwide.",
+    "Learn about PG Ecom's mission to make card issuing, ecommerce, identity verification, and financial infrastructure accessible to businesses of all sizes worldwide.",
   openGraph: {
-    title: "About PG Ecom",
+    title: "About PG Ecom — Financial Infrastructure for Business",
     description:
-      "Learn about PG Ecom's mission to make card issuing, ecommerce, and financial infrastructure accessible to businesses worldwide.",
+      "Learn about PG Ecom's mission to make card issuing, ecommerce, identity verification, and financial infrastructure accessible to businesses of all sizes worldwide.",
     url: "https://www.pgecom.com/company/about",
+  },
+  twitter: {
+    title: "About PG Ecom — Financial Infrastructure for Business",
+    description:
+      "Learn about PG Ecom's mission to make card issuing, ecommerce, identity verification, and financial infrastructure accessible to businesses of all sizes worldwide.",
   },
   alternates: { canonical: "https://www.pgecom.com/company/about" },
 };
@@ -18,6 +24,17 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 2, name: "Company", item: "https://www.pgecom.com" },
+            { "@type": "ListItem", position: 3, name: "About Us", item: "https://www.pgecom.com/company/about" },
+          ],
+        }}
+      />
       <Navbar />
       <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat, Inter } from "next/font/google";
 import "./globals.css";
 import { TranslationProvider } from "./i18n";
@@ -14,6 +14,12 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#4F46E5",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.pgecom.com"),
@@ -57,6 +63,33 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "PG Ecom",
+  url: "https://www.pgecom.com",
+  logo: "https://www.pgecom.com/pgecom-logo-transparent.png",
+  description:
+    "Virtual and physical card issuing, ecommerce, identity verification, and education platform.",
+  sameAs: [
+    "https://twitter.com/pgecommerce",
+    "https://facebook.com/pgecom",
+    "https://instagram.com/pgecom",
+  ],
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "info@pgecom.com",
+    contactType: "customer service",
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "PG Ecom",
+  url: "https://www.pgecom.com",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -67,8 +100,20 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${inter.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
         <TranslationProvider>
-          {children}
+          <main>{children}</main>
         </TranslationProvider>
       </body>
     </html>

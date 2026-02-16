@@ -8,21 +8,22 @@ import EcomInvoice from "../components/ecommerce/EcomInvoice";
 import EcomPricing from "../components/ecommerce/EcomPricing";
 import EcomCTA from "../components/ecommerce/EcomCTA";
 import Footer from "../components/Footer";
+import { JsonLd } from "../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Ecommerce Platform",
+  title: "Ecommerce Platform for Online Stores",
   description:
     "Build, launch, and scale your online store with product management, payment processing, multi-shop support, print on demand, and multi-channel selling.",
   openGraph: {
     title: "PG Ecom - Ecommerce Platform for Online Stores",
     description:
-      "Build, launch, and scale your online store with product management, MonCash and Stripe payments, multi-shop support, and multi-channel selling.",
+      "Build, launch, and scale your online store with product management, MonCash and Stripe payments, multi-shop support, print on demand, and multi-channel selling.",
     url: "https://www.pgecom.com/ecommerce",
   },
   twitter: {
     title: "PG Ecom - Ecommerce Platform for Online Stores",
     description:
-      "Build, launch, and scale your online store with product management, MonCash and Stripe payments, multi-shop support, and multi-channel selling.",
+      "Build, launch, and scale your online store with product management, MonCash and Stripe payments, multi-shop support, print on demand, and multi-channel selling.",
   },
   alternates: {
     canonical: "https://www.pgecom.com/ecommerce",
@@ -32,6 +33,23 @@ export const metadata: Metadata = {
 export default function EcommercePage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          name: "PG Ecom Ecommerce",
+          applicationCategory: "BusinessApplication",
+          description:
+            "Build, launch, and scale your online store with product management, payment processing, and multi-channel selling.",
+          url: "https://www.pgecom.com/ecommerce",
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+            description: "Free tier available",
+          },
+        }}
+      />
       <Navbar />
       <EcomHero />
       <EcomFeatures />

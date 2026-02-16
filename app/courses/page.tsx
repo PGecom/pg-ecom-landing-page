@@ -10,6 +10,7 @@ import CoursesPricing from "../components/courses/CoursesPricing";
 import CoursesTestimonials from "../components/courses/CoursesTestimonials";
 import CoursesCTA from "../components/courses/CoursesCTA";
 import Footer from "../components/Footer";
+import { JsonLd } from "../components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Online Courses & School Management Platform",
@@ -34,6 +35,23 @@ export const metadata: Metadata = {
 export default function CoursesPage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          name: "PG Ecom Courses & School Management",
+          applicationCategory: "EducationalApplication",
+          description:
+            "Create interactive courses, manage your school, process payments, and build a learning community with white-label support.",
+          url: "https://www.pgecom.com/courses",
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+            description: "Free tier available",
+          },
+        }}
+      />
       <Navbar />
       <CoursesHero />
       <CoursesFeatures />

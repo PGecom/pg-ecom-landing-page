@@ -11,7 +11,8 @@
       "WebFetch(domain:school.pgecom.com)",
       "Bash(npx next build:*)",
       "Bash(ls:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(find:*)"
     ]
   }
 }

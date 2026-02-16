@@ -8,9 +8,10 @@ import PrepaidPricing from "../components/prepaid/PrepaidPricing";
 import PrepaidFAQ from "../components/prepaid/PrepaidFAQ";
 import PrepaidCTA from "../components/prepaid/PrepaidCTA";
 import Footer from "../components/Footer";
+import { JsonLd } from "../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Prepaid Top-Up Platform",
+  title: "Prepaid Mobile Top-Up & Airtime Platform",
   description:
     "A white-label platform for reselling mobile airtime and data worldwide. 150+ countries, 500+ operators, intelligent pricing engine, and multi-tenant management.",
   openGraph: {
@@ -32,6 +33,23 @@ export const metadata: Metadata = {
 export default function PrepaidPage() {
   return (
     <div className="min-h-screen bg-white">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          name: "PG Ecom Prepaid Top-Up",
+          applicationCategory: "BusinessApplication",
+          description:
+            "White-label platform for reselling mobile airtime and data worldwide. 150+ countries, 500+ operators.",
+          url: "https://www.pgecom.com/prepaid",
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+            description: "Free tier available",
+          },
+        }}
+      />
       <Navbar />
       <PrepaidHero />
       <PrepaidHowItWorks />
