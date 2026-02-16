@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Montserrat, Inter } from "next/font/google";
 import "./globals.css";
 import { TranslationProvider } from "./i18n";
+import CrispChat from "./components/CrispChat";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -114,6 +115,7 @@ export default function RootLayout({
         />
         <TranslationProvider>
           <main>{children}</main>
+          <CrispChat />
         </TranslationProvider>
       </body>
     </html>
