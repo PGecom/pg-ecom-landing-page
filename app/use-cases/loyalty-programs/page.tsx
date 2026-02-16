@@ -8,19 +8,19 @@ import Footer from "../../components/Footer";
 import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Loyalty & Rewards Cards for Customer Retention",
+  title: "Loyalty & Rewards Cards via Card Issuing API",
   description:
-    "Launch branded prepaid and reward cards with cashback programs, points-based rewards, customer segmentation, and engagement analytics to drive retention.",
+    "Use our card issuing API to create branded prepaid and reward cards. Issue cards, load funds, and use transaction webhooks to build your own loyalty program.",
   openGraph: {
-    title: "PG Ecom - Loyalty & Rewards Cards",
+    title: "PG Ecom - Loyalty & Rewards Cards via API",
     description:
-      "Launch branded prepaid and reward cards with cashback programs, points-based rewards, customer segmentation, and engagement analytics to drive retention.",
+      "Use our card issuing API to create branded prepaid and reward cards. Issue cards, load funds, and use transaction webhooks to build your own loyalty program.",
     url: "https://www.pgecom.com/use-cases/loyalty-programs",
   },
   twitter: {
-    title: "PG Ecom - Loyalty & Rewards Cards",
+    title: "PG Ecom - Loyalty & Rewards Cards via API",
     description:
-      "Launch branded prepaid and reward cards with cashback programs, points-based rewards, customer segmentation, and engagement analytics to drive retention.",
+      "Use our card issuing API to create branded prepaid and reward cards. Issue cards, load funds, and use transaction webhooks to build your own loyalty program.",
   },
   alternates: {
     canonical: "https://www.pgecom.com/use-cases/loyalty-programs",

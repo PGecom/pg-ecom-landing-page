@@ -8,19 +8,19 @@ import Footer from "../../components/Footer";
 import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Business Charge Cards with Credit Line Management",
+  title: "Business Charge Cards via Card Issuing API",
   description:
-    "Issue business charge cards with credit line management, monthly billing cycles, grace periods, and automated statement generation for corporate spending.",
+    "Use our card issuing API to create business charge cards with spend limits, transaction data access, and card lifecycle controls. Build your own billing workflows.",
   openGraph: {
-    title: "PG Ecom - Business Charge Cards",
+    title: "PG Ecom - Business Charge Cards via API",
     description:
-      "Issue business charge cards with credit line management, monthly billing cycles, grace periods, and automated statement generation for corporate spending.",
+      "Use our card issuing API to create business charge cards with spend limits, transaction data access, and card lifecycle controls. Build your own billing workflows.",
     url: "https://www.pgecom.com/use-cases/charge-cards",
   },
   twitter: {
-    title: "PG Ecom - Business Charge Cards",
+    title: "PG Ecom - Business Charge Cards via API",
     description:
-      "Issue business charge cards with credit line management, monthly billing cycles, grace periods, and automated statement generation for corporate spending.",
+      "Use our card issuing API to create business charge cards with spend limits, transaction data access, and card lifecycle controls. Build your own billing workflows.",
   },
   alternates: {
     canonical: "https://www.pgecom.com/use-cases/charge-cards",

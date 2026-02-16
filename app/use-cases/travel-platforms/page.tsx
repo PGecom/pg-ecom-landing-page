@@ -8,19 +8,19 @@ import Footer from "../../components/Footer";
 import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Virtual Cards for Travel Platforms & Agencies",
+  title: "Virtual Cards for Travel Platforms via API",
   description:
-    "Issue single-use virtual cards for travel supplier payments, hotel bookings, and airline tickets with real-time authorization and multi-currency support.",
+    "Use our card issuing API to create single-use virtual cards for travel supplier payments. Per-booking issuance, multi-currency support, and transaction webhooks.",
   openGraph: {
-    title: "PG Ecom - Virtual Cards for Travel Platforms",
+    title: "PG Ecom - Virtual Cards for Travel Platforms via API",
     description:
-      "Issue single-use virtual cards for travel supplier payments, hotel bookings, and airline tickets with real-time authorization and multi-currency support.",
+      "Use our card issuing API to create single-use virtual cards for travel supplier payments. Per-booking issuance, multi-currency support, and transaction webhooks.",
     url: "https://www.pgecom.com/use-cases/travel-platforms",
   },
   twitter: {
-    title: "PG Ecom - Virtual Cards for Travel Platforms",
+    title: "PG Ecom - Virtual Cards for Travel Platforms via API",
     description:
-      "Issue single-use virtual cards for travel supplier payments, hotel bookings, and airline tickets with real-time authorization and multi-currency support.",
+      "Use our card issuing API to create single-use virtual cards for travel supplier payments. Per-booking issuance, multi-currency support, and transaction webhooks.",
   },
   alternates: {
     canonical: "https://www.pgecom.com/use-cases/travel-platforms",

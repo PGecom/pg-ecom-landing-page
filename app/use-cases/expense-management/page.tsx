@@ -8,19 +8,19 @@ import Footer from "../../components/Footer";
 import { JsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Corporate Expense Management Cards & Controls",
+  title: "Corporate Expense Management Cards via API",
   description:
-    "Issue corporate expense cards with real-time spend controls, category restrictions, and automated reconciliation. Eliminate manual expense reports and streamline approvals.",
+    "Use our card issuing API to create corporate expense cards with spend controls, transaction webhooks, and card lifecycle management. Build your own expense solution.",
   openGraph: {
-    title: "PG Ecom - Corporate Expense Management Cards",
+    title: "PG Ecom - Corporate Expense Cards via API",
     description:
-      "Issue corporate expense cards with real-time spend controls, category restrictions, and automated reconciliation. Eliminate manual expense reports and streamline approvals.",
+      "Use our card issuing API to create corporate expense cards with spend controls, transaction webhooks, and card lifecycle management. Build your own expense solution.",
     url: "https://www.pgecom.com/use-cases/expense-management",
   },
   twitter: {
-    title: "PG Ecom - Corporate Expense Management Cards",
+    title: "PG Ecom - Corporate Expense Cards via API",
     description:
-      "Issue corporate expense cards with real-time spend controls, category restrictions, and automated reconciliation. Eliminate manual expense reports and streamline approvals.",
+      "Use our card issuing API to create corporate expense cards with spend controls, transaction webhooks, and card lifecycle management. Build your own expense solution.",
   },
   alternates: {
     canonical: "https://www.pgecom.com/use-cases/expense-management",
