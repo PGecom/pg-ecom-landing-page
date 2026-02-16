@@ -17,6 +17,7 @@ export const fr: Translations = {
       { title: "Vérification d'identité", description: "Vérifiez l'identité des clients avec KYC et contrôle de documents." },
       { title: "Gestion de cours", description: "Créez, gérez et vendez des cours en ligne facilement." },
       { title: "E-commerce", description: "Lancez et gérez votre boutique en ligne avec des outils puissants." },
+      { title: "PG Exchange", description: "Achetez et vendez des cryptos en P2P avec protection séquestre." },
     ],
     companyItems: [
       { title: "À propos", description: "Découvrez notre histoire et notre mission.", badge: "" },
@@ -169,7 +170,7 @@ export const fr: Translations = {
       legal: "Légal",
     },
     links: {
-      product: ["Émission de cartes", "Recharge prépayée", "Vérification d'identité", "Portefeuilles numériques", "E-commerce", "Cours", "API Développeur", "Conformité"],
+      product: ["Émission de cartes", "Recharge prépayée", "Vérification d'identité", "Portefeuilles numériques", "E-commerce", "Cours", "API Développeur", "Conformité", "PG Exchange"],
       useCases: ["Gestion des dépenses", "Cartes flottes", "Plateformes de voyage", "Programmes de fidélité", "Cartes de crédit"],
       resources: ["Documentation", "Référence API", "Centre d'aide", "Page de statut", "Communauté"],
       legal: ["Conditions d'utilisation", "Politique de confidentialité", "Politique AML", "Politique de cookies", "RGPD"],
@@ -861,6 +862,62 @@ export const fr: Translations = {
         ctaPrimary: "Commencer à émettre",
         ctaSecondary: "Parler aux ventes",
       },
+    },
+  },
+  // ── PG Exchange ────────────────────────────────────
+  exchange: {
+    hero: {
+      badge: "Échange Crypto P2P",
+      headingLine1: "Échangez des cryptos en P2P,",
+      headingHighlight: "à votre façon",
+      description: "Achetez et vendez des cryptomonnaies directement entre utilisateurs avec une protection séquestre sécurisée, plus de 50 méthodes de paiement et un chat en temps réel — le tout sur une seule plateforme.",
+      ctaPrimary: "Commencer à trader",
+      ctaSecondary: "Explorer le marché",
+    },
+    metrics: [
+      { value: "50+", label: "Méthodes de paiement" },
+      { value: "9", label: "Cryptomonnaies" },
+      { value: "10", label: "Devises fiat" },
+      { value: "100%", label: "Protection séquestre" },
+    ],
+    features: {
+      sectionLabel: "Fonctionnalités",
+      heading: "Tout ce dont vous avez besoin pour le trading P2P",
+      description: "Un marché peer-to-peer complet avec sécurité intégrée, support multi-devises et outils puissants de gestion des échanges.",
+      items: [
+        { title: "Marché P2P", description: "Créez des offres d'échange personnalisées avec vos propres conditions, prix et préférences de paiement. Parcourez et trouvez des traders sur le marché." },
+        { title: "Protection séquestre", description: "Tous les échanges sont sécurisés par un séquestre automatique. Les fonds sont bloqués jusqu'à ce que les deux parties confirment la transaction." },
+        { title: "Support multi-devises", description: "Échangez parmi 9 cryptomonnaies et 10 devises fiat. Support pour Bitcoin, Ethereum, USDT et plus encore." },
+        { title: "Chat en temps réel", description: "Communiquez directement avec votre partenaire d'échange pendant les transactions. Partagez les preuves de paiement et résolvez les questions instantanément." },
+        { title: "Offres personnalisables", description: "Définissez vos propres prix, limites d'échange, méthodes de paiement acceptées et messages automatiques pour une expérience de trading personnalisée." },
+        { title: "Règlement rapide", description: "Complétez vos échanges en quelques minutes avec plus de 50 méthodes de paiement incluant virement bancaire, mobile money et portefeuilles numériques." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "Comment ça marche",
+      heading: "Commencez à trader en quatre étapes simples",
+      steps: [
+        { title: "Parcourez ou créez des offres", description: "Explorez le marché pour des offres existantes ou créez la vôtre avec des conditions et méthodes de paiement personnalisées." },
+        { title: "Match et séquestre", description: "Lorsqu'un échange est initié, la cryptomonnaie est automatiquement verrouillée en séquestre pour la protection des deux parties." },
+        { title: "Envoyez le paiement", description: "Effectuez le paiement via votre méthode préférée et téléchargez la preuve de paiement dans le chat d'échange." },
+        { title: "Libération et réception", description: "Une fois le paiement confirmé, le séquestre libère la cryptomonnaie dans le portefeuille de l'acheteur instantanément." },
+      ],
+    },
+    security: {
+      sectionLabel: "Sécurité et confiance",
+      heading: "Tradez en toute confiance",
+      description: "Chaque échange sur PG Exchange est protégé par plusieurs couches de sécurité et un processus de résolution de litiges équitable.",
+      items: [
+        { title: "Protection séquestre", description: "La cryptomonnaie est conservée en séquestre sécurisé pendant chaque échange. Les fonds ne sont libérés que lorsque les deux parties confirment." },
+        { title: "Vérification KYC", description: "Tous les traders doivent vérifier leur identité avant de trader. Cela garantit un environnement d'échange fiable et conforme." },
+        { title: "Résolution de litiges", description: "Processus de révision dédié par un administrateur avec soumission de preuves et appels. Résolution équitable pour chaque litige." },
+      ],
+    },
+    cta: {
+      heading: "Prêt à commencer à trader ?",
+      description: "Rejoignez PG Exchange et commencez à acheter ou vendre des cryptomonnaies en P2P avec protection séquestre sécurisée et plus de 50 méthodes de paiement.",
+      ctaPrimary: "Créer un compte gratuit",
+      ctaSecondary: "En savoir plus",
     },
   },
 };

@@ -16,6 +16,7 @@ export const en = {
       { title: "Identity Verification", description: "Verify customer identities with KYC and document checks." },
       { title: "Courses Management", description: "Create, manage, and sell online courses with ease." },
       { title: "Ecommerce", description: "Launch and manage your online store with powerful tools." },
+      { title: "PG Exchange", description: "Buy and sell crypto peer-to-peer with escrow protection." },
     ],
     companyItems: [
       { title: "About us", description: "Learn about our story and our mission statement.", badge: "" },
@@ -176,7 +177,7 @@ export const en = {
       legal: "Legal",
     },
     links: {
-      product: ["Card Issuing", "Prepaid Top Up", "Identity Verification", "Digital Wallets", "Ecommerce", "Courses", "Developer API", "Compliance"],
+      product: ["Card Issuing", "Prepaid Top Up", "Identity Verification", "Digital Wallets", "Ecommerce", "Courses", "Developer API", "Compliance", "PG Exchange"],
       useCases: ["Expense Management", "Fleet Cards", "Travel Platforms", "Loyalty Programs", "Charge Cards"],
       resources: ["Documentation", "API Reference", "Help Center", "Status Page", "Community"],
       legal: ["Terms of Service", "Privacy Policy", "AML Policy", "Cookie Policy", "GDPR"],
@@ -868,6 +869,62 @@ export const en = {
         ctaPrimary: "Start issuing cards",
         ctaSecondary: "Talk to sales",
       },
+    },
+  },
+  // ── PG Exchange ────────────────────────────────────
+  exchange: {
+    hero: {
+      badge: "P2P Crypto Exchange",
+      headingLine1: "Trade crypto peer-to-peer,",
+      headingHighlight: "your way",
+      description: "Buy and sell cryptocurrency directly between users with secure escrow protection, 50+ payment methods, and real-time chat — all on one platform.",
+      ctaPrimary: "Start trading",
+      ctaSecondary: "Explore marketplace",
+    },
+    metrics: [
+      { value: "50+", label: "Payment Methods" },
+      { value: "9", label: "Cryptocurrencies" },
+      { value: "10", label: "Fiat Currencies" },
+      { value: "100%", label: "Escrow Protection" },
+    ],
+    features: {
+      sectionLabel: "Platform Features",
+      heading: "Everything you need for P2P trading",
+      description: "A complete peer-to-peer marketplace with built-in security, multi-currency support, and powerful trade management tools.",
+      items: [
+        { title: "P2P Marketplace", description: "Create custom trade offers with your own terms, pricing, and payment preferences. Browse and match with traders in the marketplace." },
+        { title: "Escrow Protection", description: "All trades are secured by automatic escrow. Funds are locked until both parties confirm the transaction is complete." },
+        { title: "Multi-Currency Support", description: "Trade across 9 cryptocurrencies and 10 fiat currencies. Support for Bitcoin, Ethereum, USDT, and more." },
+        { title: "Real-Time Chat", description: "Communicate directly with your trading partner during transactions. Share payment proof and resolve questions instantly." },
+        { title: "Customizable Offers", description: "Set your own pricing, trade limits, accepted payment methods, and automated messages for a personalized trading experience." },
+        { title: "Fast Settlement", description: "Complete trades in minutes with 50+ payment methods including bank transfer, mobile money, and digital wallets." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "How It Works",
+      heading: "Start trading in four simple steps",
+      steps: [
+        { title: "Browse or Create Offers", description: "Explore the marketplace for existing trade offers or create your own with custom terms and payment methods." },
+        { title: "Match & Escrow", description: "When a trade is initiated, cryptocurrency is automatically locked in escrow for both parties' protection." },
+        { title: "Send Payment", description: "Complete payment via your preferred method and upload proof of payment to the trade chat." },
+        { title: "Release & Receive", description: "Once payment is confirmed, escrow releases the cryptocurrency to the buyer's wallet instantly." },
+      ],
+    },
+    security: {
+      sectionLabel: "Security & Trust",
+      heading: "Trade with confidence",
+      description: "Every trade on PG Exchange is protected by multiple layers of security and a fair dispute resolution process.",
+      items: [
+        { title: "Escrow Protection", description: "Cryptocurrency is held in secure escrow during every trade. Funds are only released when both parties confirm completion." },
+        { title: "KYC Verification", description: "All traders must verify their identity before trading. This ensures a trusted and compliant trading environment." },
+        { title: "Dispute Resolution", description: "Dedicated admin review process with evidence submission and appeals. Fair resolution for every dispute." },
+      ],
+    },
+    cta: {
+      heading: "Ready to start trading?",
+      description: "Join PG Exchange and start buying or selling cryptocurrency peer-to-peer with secure escrow protection and 50+ payment methods.",
+      ctaPrimary: "Create free account",
+      ctaSecondary: "Learn more",
     },
   },
 } as const;

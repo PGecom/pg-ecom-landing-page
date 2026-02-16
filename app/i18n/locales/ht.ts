@@ -17,6 +17,7 @@ export const ht: Translations = {
       { title: "Verifikasyon Idantite", description: "Verifye idantite kliyan yo ak KYC ak kontwòl dokiman." },
       { title: "Jesyon Kou", description: "Kreye, jere ak vann kou an liy fasilman." },
       { title: "E-komès", description: "Lanse ak jere boutik an liy ou ak zouti pwisan." },
+      { title: "PG Exchange", description: "Achte ak vann kripto P2P ak pwoteksyon sekwès." },
     ],
     companyItems: [
       { title: "Sou nou", description: "Aprann istwa nou ak misyon nou.", badge: "" },
@@ -169,7 +170,7 @@ export const ht: Translations = {
       legal: "Legal",
     },
     links: {
-      product: ["Emisyon Kat", "Rechaj Prepaye", "Verifikasyon Idantite", "Bous Nimerik", "E-komès", "Kou", "API Devlopè", "Konformite"],
+      product: ["Emisyon Kat", "Rechaj Prepaye", "Verifikasyon Idantite", "Bous Nimerik", "E-komès", "Kou", "API Devlopè", "Konformite", "PG Exchange"],
       useCases: ["Jesyon Depans", "Kat Flòt", "Platfòm Vwayaj", "Pwogram Fidelite", "Kat Kredi"],
       resources: ["Dokimantasyon", "Referans API", "Sant Èd", "Paj Estati", "Kominote"],
       legal: ["Kondisyon Sèvis", "Politik Konfidansyalite", "Politik AML", "Politik Cookies", "RGPD"],
@@ -861,6 +862,62 @@ export const ht: Translations = {
         ctaPrimary: "Kòmanse kreye kat",
         ctaSecondary: "Pale ak vant",
       },
+    },
+  },
+  // ── PG Exchange ────────────────────────────────────
+  exchange: {
+    hero: {
+      badge: "Echanj Kripto P2P",
+      headingLine1: "Echanje kripto ant moun,",
+      headingHighlight: "jan ou vle",
+      description: "Achte ak vann kriptomonè dirèkteman ant itilizatè ak pwoteksyon sekwès sekirize, plis pase 50 metòd peman, ak chat an tan reyèl — tout sou yon sèl platfòm.",
+      ctaPrimary: "Kòmanse echanje",
+      ctaSecondary: "Eksplore mache a",
+    },
+    metrics: [
+      { value: "50+", label: "Metòd Peman" },
+      { value: "9", label: "Kriptomonè" },
+      { value: "10", label: "Lajan Fiat" },
+      { value: "100%", label: "Pwoteksyon Sekwès" },
+    ],
+    features: {
+      sectionLabel: "Fonksyonalite",
+      heading: "Tout sa ou bezwen pou echanj P2P",
+      description: "Yon mache peer-to-peer konplè ak sekirite entegre, sipò milti-lajan ak zouti pwisan pou jesyon echanj.",
+      items: [
+        { title: "Mache P2P", description: "Kreye òf echanj pèsonalize ak pwòp kondisyon ou, pri ak preferans peman. Navige epi jwenn komèsan sou mache a." },
+        { title: "Pwoteksyon Sekwès", description: "Tout echanj yo sekirize pa sekwès otomatik. Lajan yo bloke jiskaske de pati yo konfime tranzaksyon an fini." },
+        { title: "Sipò Milti-Lajan", description: "Echanje pami 9 kriptomonè ak 10 lajan fiat. Sipò pou Bitcoin, Ethereum, USDT ak plis ankò." },
+        { title: "Chat an Tan Reyèl", description: "Kominike dirèkteman ak patnè echanj ou pandan tranzaksyon yo. Pataje prèv peman epi rezoud kesyon enstantaneman." },
+        { title: "Òf Pèsonalizab", description: "Fikse pwòp pri ou, limit echanj, metòd peman aksepte ak mesaj otomatik pou yon eksperyans echanj pèsonalize." },
+        { title: "Règleman Rapid", description: "Konplete echanj nan kèk minit ak plis pase 50 metòd peman tankou transfè bank, lajan mobil ak bous nimerik." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "Kijan Sa Fonksyone",
+      heading: "Kòmanse echanje nan kat etap senp",
+      steps: [
+        { title: "Navige oswa Kreye Òf", description: "Eksplore mache a pou òf echanj ki egziste deja oswa kreye pa ou ak kondisyon ak metòd peman pèsonalize." },
+        { title: "Match ak Sekwès", description: "Lè yon echanj inisye, kriptomonè a otomatikman bloke nan sekwès pou pwoteksyon tou de pati yo." },
+        { title: "Voye Peman", description: "Konplete peman pa metòd ou prefere a epi telechaje prèv peman nan chat echanj la." },
+        { title: "Liberasyon ak Resepsyon", description: "Yon fwa peman an konfime, sekwès la libere kriptomonè a nan bous achtè a enstantaneman." },
+      ],
+    },
+    security: {
+      sectionLabel: "Sekirite ak Konfyans",
+      heading: "Echanje ak konfyans",
+      description: "Chak echanj sou PG Exchange pwoteje pa plizyè kouch sekirite ak yon pwosesis rezolisyon konfli ekitab.",
+      items: [
+        { title: "Pwoteksyon Sekwès", description: "Kriptomonè a kenbe nan sekwès sekirize pandan chak echanj. Lajan yo sèlman libere lè tou de pati yo konfime." },
+        { title: "Verifikasyon KYC", description: "Tout komèsan yo dwe verifye idantite yo anvan yo echanje. Sa garanti yon anviwònman echanj fyab ak konfòm." },
+        { title: "Rezolisyon Konfli", description: "Pwosesis revizyon dedye pa administratè ak soumisyon prèv ak apèl. Rezolisyon ekitab pou chak konfli." },
+      ],
+    },
+    cta: {
+      heading: "Prè pou kòmanse echanje?",
+      description: "Rejwenn PG Exchange epi kòmanse achte oswa vann kriptomonè P2P ak pwoteksyon sekwès sekirize ak plis pase 50 metòd peman.",
+      ctaPrimary: "Kreye kont gratis",
+      ctaSecondary: "Aprann plis",
     },
   },
 };

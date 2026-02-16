@@ -17,6 +17,7 @@ export const es: Translations = {
       { title: "Verificación de Identidad", description: "Verifique la identidad de los clientes con KYC y verificación de documentos." },
       { title: "Gestión de Cursos", description: "Cree, gestione y venda cursos en línea con facilidad." },
       { title: "E-commerce", description: "Lance y gestione su tienda en línea con herramientas poderosas." },
+      { title: "PG Exchange", description: "Compre y venda criptomonedas P2P con protección de custodia." },
     ],
     companyItems: [
       { title: "Sobre nosotros", description: "Conozca nuestra historia y nuestra misión.", badge: "" },
@@ -169,7 +170,7 @@ export const es: Translations = {
       legal: "Legal",
     },
     links: {
-      product: ["Emisión de Tarjetas", "Recarga Prepago", "Verificación de Identidad", "Billeteras Digitales", "E-commerce", "Cursos", "API Desarrolladores", "Cumplimiento"],
+      product: ["Emisión de Tarjetas", "Recarga Prepago", "Verificación de Identidad", "Billeteras Digitales", "E-commerce", "Cursos", "API Desarrolladores", "Cumplimiento", "PG Exchange"],
       useCases: ["Gestión de Gastos", "Tarjetas de Flota", "Plataformas de Viaje", "Programas de Fidelidad", "Tarjetas de Crédito"],
       resources: ["Documentación", "Referencia API", "Centro de Ayuda", "Página de Estado", "Comunidad"],
       legal: ["Términos de Servicio", "Política de Privacidad", "Política AML", "Política de Cookies", "RGPD"],
@@ -861,6 +862,62 @@ export const es: Translations = {
         ctaPrimary: "Comenzar a emitir tarjetas",
         ctaSecondary: "Hablar con ventas",
       },
+    },
+  },
+  // ── PG Exchange ────────────────────────────────────
+  exchange: {
+    hero: {
+      badge: "Exchange Crypto P2P",
+      headingLine1: "Intercambie criptomonedas P2P,",
+      headingHighlight: "a su manera",
+      description: "Compre y venda criptomonedas directamente entre usuarios con protección de custodia segura, más de 50 métodos de pago y chat en tiempo real — todo en una sola plataforma.",
+      ctaPrimary: "Comenzar a operar",
+      ctaSecondary: "Explorar mercado",
+    },
+    metrics: [
+      { value: "50+", label: "Métodos de Pago" },
+      { value: "9", label: "Criptomonedas" },
+      { value: "10", label: "Monedas Fiat" },
+      { value: "100%", label: "Protección de Custodia" },
+    ],
+    features: {
+      sectionLabel: "Funcionalidades",
+      heading: "Todo lo que necesita para el trading P2P",
+      description: "Un mercado peer-to-peer completo con seguridad integrada, soporte multidivisa y herramientas potentes de gestión de operaciones.",
+      items: [
+        { title: "Mercado P2P", description: "Cree ofertas de intercambio personalizadas con sus propios términos, precios y preferencias de pago. Navegue y encuentre operadores en el mercado." },
+        { title: "Protección de Custodia", description: "Todas las operaciones están aseguradas por custodia automática. Los fondos se bloquean hasta que ambas partes confirmen la transacción." },
+        { title: "Soporte Multidivisa", description: "Opere con 9 criptomonedas y 10 monedas fiat. Soporte para Bitcoin, Ethereum, USDT y más." },
+        { title: "Chat en Tiempo Real", description: "Comuníquese directamente con su socio comercial durante las transacciones. Comparta comprobantes de pago y resuelva consultas al instante." },
+        { title: "Ofertas Personalizables", description: "Establezca sus propios precios, límites de operación, métodos de pago aceptados y mensajes automáticos para una experiencia de trading personalizada." },
+        { title: "Liquidación Rápida", description: "Complete operaciones en minutos con más de 50 métodos de pago incluyendo transferencia bancaria, dinero móvil y billeteras digitales." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "Cómo Funciona",
+      heading: "Comience a operar en cuatro simples pasos",
+      steps: [
+        { title: "Navegue o Cree Ofertas", description: "Explore el mercado en busca de ofertas existentes o cree la suya propia con términos y métodos de pago personalizados." },
+        { title: "Match y Custodia", description: "Cuando se inicia una operación, la criptomoneda se bloquea automáticamente en custodia para protección de ambas partes." },
+        { title: "Envíe el Pago", description: "Complete el pago por su método preferido y suba el comprobante de pago al chat de la operación." },
+        { title: "Liberación y Recepción", description: "Una vez confirmado el pago, la custodia libera la criptomoneda a la billetera del comprador instantáneamente." },
+      ],
+    },
+    security: {
+      sectionLabel: "Seguridad y Confianza",
+      heading: "Opere con confianza",
+      description: "Cada operación en PG Exchange está protegida por múltiples capas de seguridad y un proceso justo de resolución de disputas.",
+      items: [
+        { title: "Protección de Custodia", description: "La criptomoneda se mantiene en custodia segura durante cada operación. Los fondos solo se liberan cuando ambas partes confirman." },
+        { title: "Verificación KYC", description: "Todos los operadores deben verificar su identidad antes de operar. Esto garantiza un entorno de intercambio confiable y conforme." },
+        { title: "Resolución de Disputas", description: "Proceso de revisión dedicado por administradores con presentación de evidencia y apelaciones. Resolución justa para cada disputa." },
+      ],
+    },
+    cta: {
+      heading: "¿Listo para comenzar a operar?",
+      description: "Únase a PG Exchange y comience a comprar o vender criptomonedas P2P con protección de custodia segura y más de 50 métodos de pago.",
+      ctaPrimary: "Crear cuenta gratuita",
+      ctaSecondary: "Más información",
     },
   },
 };

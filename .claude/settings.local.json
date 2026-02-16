@@ -12,7 +12,8 @@
       "Bash(npx next build:*)",
       "Bash(ls:*)",
       "Bash(grep:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:p2p.pgecom.com)"
     ]
   }
 }
