@@ -18,6 +18,7 @@ export const ht: Translations = {
       { title: "Jesyon Kou", description: "Kreye, jere ak vann kou an liy fasilman." },
       { title: "E-komès", description: "Lanse ak jere boutik an liy ou ak zouti pwisan." },
       { title: "PG Exchange", description: "Achte ak vann kripto P2P ak pwoteksyon sekwès." },
+      { title: "Expenci", description: "Swiv ak jere depans biznis ou efektivman." },
     ],
     companyItems: [
       { title: "Sou nou", description: "Aprann istwa nou ak misyon nou.", badge: "" },
@@ -170,7 +171,7 @@ export const ht: Translations = {
       legal: "Legal",
     },
     links: {
-      product: ["Emisyon Kat", "Rechaj Prepaye", "Verifikasyon Idantite", "Bous Nimerik", "E-komès", "Kou", "API Devlopè", "Konformite", "PG Exchange"],
+      product: ["Emisyon Kat", "Rechaj Prepaye", "Verifikasyon Idantite", "Bous Nimerik", "E-komès", "Kou", "API Devlopè", "Konformite", "PG Exchange", "Expenci"],
       useCases: ["Jesyon Depans", "Kat Flòt", "Platfòm Vwayaj", "Pwogram Fidelite", "Kat Kredi"],
       resources: ["Dokimantasyon", "Referans API", "Sant Èd", "Paj Estati", "Kominote"],
       legal: ["Kondisyon Sèvis", "Politik Konfidansyalite", "Politik AML", "Politik Cookies", "RGPD"],
@@ -918,6 +919,62 @@ export const ht: Translations = {
       description: "Rejwenn PG Exchange epi kòmanse achte oswa vann kriptomonè P2P ak pwoteksyon sekwès sekirize ak plis pase 50 metòd peman.",
       ctaPrimary: "Kreye kont gratis",
       ctaSecondary: "Aprann plis",
+    },
+  },
+  // ── Expenci (Jesyon Depans) ──────────────────
+  expense: {
+    hero: {
+      badge: "Jesyon Depans Entelijan",
+      headingLine1: "Swiv ak jere depans,",
+      headingHighlight: "san efò",
+      description: "Kapte resi, otomatize kategorizasyon, aplike politik depans epi jenere rapò an tan reyèl — tout sa nan yon sèl platfòm jesyon depans pwisan.",
+      ctaPrimary: "Kòmanse",
+      ctaSecondary: "Aprann plis",
+    },
+    metrics: [
+      { value: "90%", label: "Tan Ekonomize" },
+      { value: "Tan Reyèl", label: "Swivi Depans" },
+      { value: "50+", label: "Entegrasyon" },
+      { value: "100%", label: "Konformite Politik" },
+    ],
+    features: {
+      sectionLabel: "Fonksyonalite",
+      heading: "Tout sa ou bezwen pou jere depans",
+      description: "Yon platfòm konplè jesyon depans ak eskanè resi entelijan, flux travay otomatize ak zouti rapò pwisan.",
+      items: [
+        { title: "Eskanè Resi Entelijan", description: "Pran yon foto nenpòt resi epi kite AI a ekstrè machan, montan, dat ak kategori otomatikman." },
+        { title: "Oto-Kategorizasyon", description: "Depans yo otomatikman klase dapre done machan ak modèl depans. Règ pèsonalize pèmèt ou ajiste klasifikasyon yo." },
+        { title: "Flux Apwobasyon", description: "Dirije depans yo nan chèn apwobasyon pèsonalizab. Fikse règ pa montan, kategori oswa depatman." },
+        { title: "Swivi an Tan Reyèl", description: "Siveye depans jan yo rive ak tablo bò an dirèk. Resevwa notifikasyon enstantane pou chak tranzaksyon." },
+        { title: "Kontwòl Bidjè", description: "Fikse limit depans pa anplwaye, ekip oswa kategori. Aplike politik yo otomatikman epi resevwa alèt." },
+        { title: "Rapò & Analitik", description: "Jenere rapò depans detaye ak tablo bò vizyèl. Ekspòte nan CSV, PDF oswa senkronize ak lojisyèl kontabilite ou." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "Kijan Sa Fonksyone",
+      heading: "Kòmanse nan kat etap senp",
+      steps: [
+        { title: "Kapte Resi", description: "Pran yon foto, transfere yon imèl oswa telechaje yon fichye. AI nou an ekstrè tout detay nan resi ou yo enstantaneman." },
+        { title: "Oto-Kategorize", description: "Depans yo otomatikman triye nan kategori dapre done machan, modèl pase ak règ pèsonalize ou." },
+        { title: "Soumèt & Apwouve", description: "Soumèt rapò depans ak yon sèl klik. Manadjè yo revize epi apwouve atravè flux milti-nivo pèsonalizab." },
+        { title: "Analize & Rapòte", description: "Jwenn apèsi an tan reyèl sou tandans depans. Jenere rapò, swiv bidjè epi ekspòte done nan zouti kontabilite ou." },
+      ],
+    },
+    security: {
+      sectionLabel: "Sekirite & Konformite",
+      heading: "Done ou an sekirite avèk nou",
+      description: "Expenci bati ak estanda sekirite ak konformite nivo antrepriz pou pwoteje done finansye ou.",
+      items: [
+        { title: "Chifre Nivo Bank", description: "Tout done yo chifre ak AES-256 an repo ak TLS 1.3 an tranzi. Enfòmasyon finansye ou toujou pwoteje." },
+        { title: "Konformite & Pis Odit", description: "Jounal odit konplè pou chak aksyon. Konformite entegre ak règleman taks ak politik depans kòporatif." },
+        { title: "Aksè Baze sou Wòl", description: "Pèmisyon granilè pèmèt ou kontwole ki moun ki ka wè, soumèt, apwouve ak ekspòte depans nan tout òganizasyon ou." },
+      ],
+    },
+    cta: {
+      heading: "Prè pou senplifye depans ou yo?",
+      description: "Rejwenn Expenci epi kòmanse swiv, jere ak rapòte depans biznis fasilman. San frè enstalasyon, kòmanse nan kèk minit.",
+      ctaPrimary: "Kòmanse gratis",
+      ctaSecondary: "Kontakte vant",
     },
   },
 };

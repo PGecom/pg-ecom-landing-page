@@ -18,6 +18,7 @@ export const es: Translations = {
       { title: "Gestión de Cursos", description: "Cree, gestione y venda cursos en línea con facilidad." },
       { title: "E-commerce", description: "Lance y gestione su tienda en línea con herramientas poderosas." },
       { title: "PG Exchange", description: "Compre y venda criptomonedas P2P con protección de custodia." },
+      { title: "Expenci", description: "Rastree y gestione los gastos de su empresa eficientemente." },
     ],
     companyItems: [
       { title: "Sobre nosotros", description: "Conozca nuestra historia y nuestra misión.", badge: "" },
@@ -170,7 +171,7 @@ export const es: Translations = {
       legal: "Legal",
     },
     links: {
-      product: ["Emisión de Tarjetas", "Recarga Prepago", "Verificación de Identidad", "Billeteras Digitales", "E-commerce", "Cursos", "API Desarrolladores", "Cumplimiento", "PG Exchange"],
+      product: ["Emisión de Tarjetas", "Recarga Prepago", "Verificación de Identidad", "Billeteras Digitales", "E-commerce", "Cursos", "API Desarrolladores", "Cumplimiento", "PG Exchange", "Expenci"],
       useCases: ["Gestión de Gastos", "Tarjetas de Flota", "Plataformas de Viaje", "Programas de Fidelidad", "Tarjetas de Crédito"],
       resources: ["Documentación", "Referencia API", "Centro de Ayuda", "Página de Estado", "Comunidad"],
       legal: ["Términos de Servicio", "Política de Privacidad", "Política AML", "Política de Cookies", "RGPD"],
@@ -918,6 +919,62 @@ export const es: Translations = {
       description: "Únase a PG Exchange y comience a comprar o vender criptomonedas P2P con protección de custodia segura y más de 50 métodos de pago.",
       ctaPrimary: "Crear cuenta gratuita",
       ctaSecondary: "Más información",
+    },
+  },
+  // ── Expenci (Gestión de Gastos) ──────────────────
+  expense: {
+    hero: {
+      badge: "Gestión Inteligente de Gastos",
+      headingLine1: "Rastree y gestione gastos,",
+      headingHighlight: "sin esfuerzo",
+      description: "Capture recibos, automatice la categorización, aplique políticas de gasto y genere informes en tiempo real — todo desde una sola plataforma de gestión de gastos.",
+      ctaPrimary: "Comenzar",
+      ctaSecondary: "Más información",
+    },
+    metrics: [
+      { value: "90%", label: "Tiempo Ahorrado" },
+      { value: "Tiempo Real", label: "Seguimiento de Gastos" },
+      { value: "50+", label: "Integraciones" },
+      { value: "100%", label: "Cumplimiento de Políticas" },
+    ],
+    features: {
+      sectionLabel: "Funcionalidades",
+      heading: "Todo lo que necesita para gestionar gastos",
+      description: "Una plataforma completa de gestión de gastos con escaneo inteligente de recibos, flujos automatizados y herramientas de reportes potentes.",
+      items: [
+        { title: "Escaneo Inteligente de Recibos", description: "Tome una foto de cualquier recibo y deje que la IA extraiga comerciante, monto, fecha y categoría automáticamente." },
+        { title: "Auto-Categorización", description: "Los gastos se categorizan automáticamente según datos del comerciante y patrones de gasto. Reglas personalizadas afinan las clasificaciones." },
+        { title: "Flujos de Aprobación", description: "Dirija los gastos a través de cadenas de aprobación personalizables. Defina reglas por monto, categoría o departamento." },
+        { title: "Seguimiento en Tiempo Real", description: "Monitoree los gastos en tiempo real con paneles en vivo. Reciba notificaciones instantáneas por cada transacción." },
+        { title: "Controles Presupuestarios", description: "Establezca límites de gasto por empleado, equipo o categoría. Aplique políticas automáticamente y reciba alertas." },
+        { title: "Informes y Analítica", description: "Genere informes de gastos detallados con paneles visuales. Exporte a CSV, PDF o sincronice con su software contable." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "Cómo Funciona",
+      heading: "Comience en cuatro simples pasos",
+      steps: [
+        { title: "Capture Recibos", description: "Tome una foto, reenvíe un correo o suba un archivo. Nuestra IA extrae todos los detalles de sus recibos al instante." },
+        { title: "Auto-Categorizar", description: "Los gastos se clasifican automáticamente por categoría según datos del comerciante, patrones y sus reglas personalizadas." },
+        { title: "Envíe y Apruebe", description: "Envíe informes de gastos con un toque. Los gerentes revisan y aprueban a través de flujos multinivel personalizables." },
+        { title: "Analice e Informe", description: "Obtenga información en tiempo real sobre tendencias de gasto. Genere informes, rastree presupuestos y exporte datos." },
+      ],
+    },
+    security: {
+      sectionLabel: "Seguridad y Cumplimiento",
+      heading: "Sus datos están seguros con nosotros",
+      description: "Expenci está construido con estándares de seguridad y cumplimiento de nivel empresarial para proteger sus datos financieros.",
+      items: [
+        { title: "Cifrado de Nivel Bancario", description: "Todos los datos están cifrados con AES-256 en reposo y TLS 1.3 en tránsito. Su información financiera siempre está protegida." },
+        { title: "Cumplimiento y Registro de Auditoría", description: "Registros de auditoría completos para cada acción. Cumplimiento integrado con regulaciones fiscales y políticas de gastos." },
+        { title: "Acceso Basado en Roles", description: "Permisos granulares le permiten controlar quién puede ver, enviar, aprobar y exportar gastos en su organización." },
+      ],
+    },
+    cta: {
+      heading: "¿Listo para simplificar sus gastos?",
+      description: "Únase a Expenci y comience a rastrear, gestionar e informar gastos empresariales con facilidad. Sin tarifas de configuración, comience en minutos.",
+      ctaPrimary: "Comience gratis",
+      ctaSecondary: "Contactar ventas",
     },
   },
 };

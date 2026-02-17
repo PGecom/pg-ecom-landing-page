@@ -18,6 +18,7 @@ export const fr: Translations = {
       { title: "Gestion de cours", description: "Créez, gérez et vendez des cours en ligne facilement." },
       { title: "E-commerce", description: "Lancez et gérez votre boutique en ligne avec des outils puissants." },
       { title: "PG Exchange", description: "Achetez et vendez des cryptos en P2P avec protection séquestre." },
+      { title: "Expenci", description: "Suivez et gérez les dépenses de votre entreprise efficacement." },
     ],
     companyItems: [
       { title: "À propos", description: "Découvrez notre histoire et notre mission.", badge: "" },
@@ -170,7 +171,7 @@ export const fr: Translations = {
       legal: "Légal",
     },
     links: {
-      product: ["Émission de cartes", "Recharge prépayée", "Vérification d'identité", "Portefeuilles numériques", "E-commerce", "Cours", "API Développeur", "Conformité", "PG Exchange"],
+      product: ["Émission de cartes", "Recharge prépayée", "Vérification d'identité", "Portefeuilles numériques", "E-commerce", "Cours", "API Développeur", "Conformité", "PG Exchange", "Expenci"],
       useCases: ["Gestion des dépenses", "Cartes flottes", "Plateformes de voyage", "Programmes de fidélité", "Cartes de crédit"],
       resources: ["Documentation", "Référence API", "Centre d'aide", "Page de statut", "Communauté"],
       legal: ["Conditions d'utilisation", "Politique de confidentialité", "Politique AML", "Politique de cookies", "RGPD"],
@@ -918,6 +919,62 @@ export const fr: Translations = {
       description: "Rejoignez PG Exchange et commencez à acheter ou vendre des cryptomonnaies en P2P avec protection séquestre sécurisée et plus de 50 méthodes de paiement.",
       ctaPrimary: "Créer un compte gratuit",
       ctaSecondary: "En savoir plus",
+    },
+  },
+  // ── Expenci (Gestion des Dépenses) ──────────────────
+  expense: {
+    hero: {
+      badge: "Gestion Intelligente des Dépenses",
+      headingLine1: "Suivez et gérez vos dépenses,",
+      headingHighlight: "sans effort",
+      description: "Capturez les reçus, automatisez la catégorisation, appliquez les politiques de dépenses et générez des rapports en temps réel — le tout depuis une seule plateforme de gestion des dépenses.",
+      ctaPrimary: "Commencer",
+      ctaSecondary: "En savoir plus",
+    },
+    metrics: [
+      { value: "90%", label: "Temps Économisé" },
+      { value: "Temps Réel", label: "Suivi des Dépenses" },
+      { value: "50+", label: "Intégrations" },
+      { value: "100%", label: "Conformité Politique" },
+    ],
+    features: {
+      sectionLabel: "Fonctionnalités",
+      heading: "Tout ce dont vous avez besoin pour gérer les dépenses",
+      description: "Une plateforme complète de gestion des dépenses avec numérisation intelligente des reçus, workflows automatisés et outils de reporting puissants.",
+      items: [
+        { title: "Numérisation Intelligente des Reçus", description: "Prenez une photo de n'importe quel reçu et laissez l'IA extraire le commerçant, le montant, la date et la catégorie automatiquement." },
+        { title: "Auto-Catégorisation", description: "Les dépenses sont automatiquement classées en fonction des données commerçant et des habitudes de dépenses. Des règles personnalisées affinent les classifications." },
+        { title: "Workflows d'Approbation", description: "Acheminez les dépenses à travers des chaînes d'approbation personnalisables. Définissez des règles par montant, catégorie ou département." },
+        { title: "Suivi en Temps Réel", description: "Surveillez les dépenses en temps réel avec des tableaux de bord en direct. Recevez des notifications instantanées pour chaque transaction." },
+        { title: "Contrôles Budgétaires", description: "Définissez des limites de dépenses par employé, équipe ou catégorie. Appliquez les politiques automatiquement et recevez des alertes." },
+        { title: "Rapports & Analytique", description: "Générez des rapports de dépenses détaillés avec des tableaux de bord visuels. Exportez en CSV, PDF ou synchronisez avec votre logiciel comptable." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "Comment Ça Marche",
+      heading: "Commencez en quatre étapes simples",
+      steps: [
+        { title: "Capturez les Reçus", description: "Prenez une photo, transférez un email ou téléchargez un fichier. Notre IA extrait tous les détails de vos reçus instantanément." },
+        { title: "Auto-Catégorisation", description: "Les dépenses sont automatiquement triées par catégorie en fonction des données commerçant, des habitudes et de vos règles personnalisées." },
+        { title: "Soumettez & Approuvez", description: "Soumettez les notes de frais en un clic. Les responsables examinent et approuvent via des workflows multi-niveaux personnalisables." },
+        { title: "Analysez & Rapportez", description: "Obtenez des aperçus en temps réel des tendances de dépenses. Générez des rapports, suivez les budgets et exportez les données." },
+      ],
+    },
+    security: {
+      sectionLabel: "Sécurité & Conformité",
+      heading: "Vos données sont en sécurité avec nous",
+      description: "Expenci est construit avec des normes de sécurité et de conformité de niveau entreprise pour protéger vos données financières.",
+      items: [
+        { title: "Chiffrement Bancaire", description: "Toutes les données sont chiffrées avec AES-256 au repos et TLS 1.3 en transit. Vos informations financières sont toujours protégées." },
+        { title: "Conformité & Piste d'Audit", description: "Journaux d'audit complets pour chaque action. Conformité intégrée avec les réglementations fiscales et les politiques de dépenses." },
+        { title: "Accès Basé sur les Rôles", description: "Des permissions granulaires vous permettent de contrôler qui peut voir, soumettre, approuver et exporter les dépenses." },
+      ],
+    },
+    cta: {
+      heading: "Prêt à simplifier vos dépenses ?",
+      description: "Rejoignez Expenci et commencez à suivre, gérer et rapporter les dépenses professionnelles facilement. Sans frais d'installation, démarrez en quelques minutes.",
+      ctaPrimary: "Commencer gratuitement",
+      ctaSecondary: "Contacter les ventes",
     },
   },
 };

@@ -17,6 +17,7 @@ export const en = {
       { title: "Courses Management", description: "Create, manage, and sell online courses with ease." },
       { title: "Ecommerce", description: "Launch and manage your online store with powerful tools." },
       { title: "PG Exchange", description: "Buy and sell crypto peer-to-peer with escrow protection." },
+      { title: "Expenci", description: "Track and manage your business expenses efficiently." },
     ],
     companyItems: [
       { title: "About us", description: "Learn about our story and our mission statement.", badge: "" },
@@ -177,7 +178,7 @@ export const en = {
       legal: "Legal",
     },
     links: {
-      product: ["Card Issuing", "Prepaid Top Up", "Identity Verification", "Digital Wallets", "Ecommerce", "Courses", "Developer API", "Compliance", "PG Exchange"],
+      product: ["Card Issuing", "Prepaid Top Up", "Identity Verification", "Digital Wallets", "Ecommerce", "Courses", "Developer API", "Compliance", "PG Exchange", "Expenci"],
       useCases: ["Expense Management", "Fleet Cards", "Travel Platforms", "Loyalty Programs", "Charge Cards"],
       resources: ["Documentation", "API Reference", "Help Center", "Status Page", "Community"],
       legal: ["Terms of Service", "Privacy Policy", "AML Policy", "Cookie Policy", "GDPR"],
@@ -925,6 +926,62 @@ export const en = {
       description: "Join PG Exchange and start buying or selling cryptocurrency peer-to-peer with secure escrow protection and 50+ payment methods.",
       ctaPrimary: "Create free account",
       ctaSecondary: "Learn more",
+    },
+  },
+  // ── Expenci (Expense Management) ──────────────────
+  expense: {
+    hero: {
+      badge: "Smart Expense Management",
+      headingLine1: "Track and manage expenses,",
+      headingHighlight: "effortlessly",
+      description: "Capture receipts, automate categorization, enforce spending policies, and generate real-time reports — all from one powerful expense management platform.",
+      ctaPrimary: "Get started",
+      ctaSecondary: "Learn more",
+    },
+    metrics: [
+      { value: "90%", label: "Time Saved" },
+      { value: "Real-Time", label: "Expense Tracking" },
+      { value: "50+", label: "Integrations" },
+      { value: "100%", label: "Policy Compliance" },
+    ],
+    features: {
+      sectionLabel: "Platform Features",
+      heading: "Everything you need to manage expenses",
+      description: "A complete expense management platform with smart receipt scanning, automated workflows, and powerful reporting tools.",
+      items: [
+        { title: "Smart Receipt Scanning", description: "Snap a photo of any receipt and let AI extract merchant, amount, date, and category automatically. No manual data entry required." },
+        { title: "Auto-Categorization", description: "Expenses are automatically categorized based on merchant data and spending patterns. Custom rules let you fine-tune classifications." },
+        { title: "Approval Workflows", description: "Route expenses through customizable approval chains. Set rules by amount, category, or department for streamlined processing." },
+        { title: "Real-Time Tracking", description: "Monitor spending as it happens with live dashboards. Get instant notifications for every transaction and policy violation." },
+        { title: "Budget Controls", description: "Set spending limits by employee, team, or category. Enforce policies automatically and get alerts before budgets are exceeded." },
+        { title: "Reports & Analytics", description: "Generate detailed expense reports with visual dashboards. Export to CSV, PDF, or sync directly with your accounting software." },
+      ],
+    },
+    howItWorks: {
+      sectionLabel: "How It Works",
+      heading: "Get started in four simple steps",
+      steps: [
+        { title: "Capture Receipts", description: "Snap a photo, forward an email, or upload a file. Our AI extracts all the details from your receipts instantly." },
+        { title: "Auto-Categorize", description: "Expenses are automatically sorted into categories based on merchant data, past patterns, and your custom rules." },
+        { title: "Submit & Approve", description: "Submit expense reports with one tap. Managers review and approve through customizable multi-level workflows." },
+        { title: "Analyze & Report", description: "Get real-time insights into spending trends. Generate reports, track budgets, and export data to your accounting tools." },
+      ],
+    },
+    security: {
+      sectionLabel: "Security & Compliance",
+      heading: "Your data is safe with us",
+      description: "Expenci is built with enterprise-grade security and compliance standards to protect your financial data.",
+      items: [
+        { title: "Bank-Level Encryption", description: "All data is encrypted with AES-256 at rest and TLS 1.3 in transit. Your financial information is always protected." },
+        { title: "Compliance & Audit Trail", description: "Complete audit logs for every action. Built-in compliance with tax regulations and corporate expense policies." },
+        { title: "Role-Based Access", description: "Granular permissions let you control who can view, submit, approve, and export expenses across your organization." },
+      ],
+    },
+    cta: {
+      heading: "Ready to simplify your expenses?",
+      description: "Join Expenci and start tracking, managing, and reporting business expenses with ease. No setup fees, get started in minutes.",
+      ctaPrimary: "Start for free",
+      ctaSecondary: "Contact sales",
     },
   },
 } as const;
