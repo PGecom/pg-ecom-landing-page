@@ -15,7 +15,11 @@
       "Bash(find:*)",
       "WebFetch(domain:p2p.pgecom.com)",
       "WebFetch(domain:expenci.com)",
-      "WebFetch(domain:www.expenci.com)"
+      "WebFetch(domain:www.expenci.com)",
+      "WebFetch(domain:store.pgecom.com)",
+      "WebFetch(domain:www.sellergift.com)",
+      "WebFetch(domain:www.captisso.com)",
+      "WebFetch(domain:www.meetchimp.com)"
     ]
   }
 }

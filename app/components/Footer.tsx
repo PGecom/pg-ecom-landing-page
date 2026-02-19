@@ -16,7 +16,7 @@ export default function Footer() {
   ];
 
   const linkRoutes: Record<string, (string | null)[]> = {
-    product: ["/", "/prepaid", "/identity", null, "/ecommerce", "/courses", null, null, "/exchange", "/expense"],
+    product: ["/", "/prepaid", "/identity", null, "/ecommerce", "/courses", null, null, "/exchange", "/expense", "/sellergift", "/crm", "/meetchimp"],
     useCases: ["/use-cases/expense-management", "/use-cases/fleet-cards", "/use-cases/travel-platforms", "/use-cases/loyalty-programs", "/use-cases/charge-cards"],
     resources: ["https://help.pgecom.com/", "https://help.pgecom.com/", "https://help.pgecom.com/", "https://help.pgecom.com/", "https://help.pgecom.com/"],
     legal: ["/company/legal/terms", "/company/legal/privacy", "/company/legal/aml", "/company/legal/cookies", "/company/legal/gdpr"],
