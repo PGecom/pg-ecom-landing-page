@@ -170,10 +170,7 @@ export const en = {
     ctaPrimary: "Start issuing cards",
     ctaSecondary: "Contact sales",
     brandDescription: "The card issuing platform for modern businesses. Create, distribute, and manage virtual and physical payment cards at scale.",
-    stayUpdated: "Stay updated",
-    emailPlaceholder: "Your email",
-    subscribe: "Subscribe",
-    copyright: "\u00a9 2024 PGECOM. All rights reserved.",
+    copyright: "\u00a9 2026 PGECOM. All rights reserved.",
     linkCategories: {
       product: "Product",
       useCases: "Use Cases",

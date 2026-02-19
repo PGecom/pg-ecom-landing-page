@@ -162,26 +162,26 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="grid grid-cols-12 gap-8">
-            {/* Column 1: Our Products */}
-            <div className="col-span-4">
+            {/* Columns 1-2: Our Products (2-column grid) */}
+            <div className="col-span-5">
               <h3 className="text-sm font-semibold text-[var(--primary)] mb-5">
                 {t.navbar.ourProducts}
               </h3>
-              <div className="space-y-1">
+              <div className="grid grid-cols-2 gap-x-2 gap-y-1">
                 {t.navbar.productItems.map((item, index) => (
                   <a
                     key={index}
                     href={productLinks[index]}
-                    className="flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors group"
+                    className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-gray-50 transition-colors group"
                   >
-                    <div className="w-9 h-9 rounded-lg bg-indigo-50 text-[var(--primary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--primary)] group-hover:text-white transition-colors">
+                    <div className="w-8 h-8 rounded-lg bg-indigo-50 text-[var(--primary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--primary)] group-hover:text-white transition-colors">
                       {productIcons[index]}
                     </div>
                     <div className="min-w-0">
                       <div className="text-sm font-semibold text-gray-900">
                         {item.title}
                       </div>
-                      <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">
+                      <div className="text-xs text-gray-400 mt-0.5 leading-relaxed line-clamp-2">
                         {item.description}
                       </div>
                     </div>
@@ -190,7 +190,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Column 2: Company */}
+            {/* Column 3: Company */}
             <div className="col-span-3">
               <h3 className="text-sm font-semibold text-[var(--primary)] mb-5">
                 {t.navbar.company}
@@ -226,8 +226,8 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Column 3: Resources / Video Tutorials */}
-            <div className="col-span-5 bg-gray-50 rounded-2xl p-6">
+            {/* Column 4: Resources / Video Tutorials */}
+            <div className="col-span-4 bg-gray-50 rounded-2xl p-6">
               <h3 className="text-sm font-semibold text-[var(--primary)] mb-5">
                 {t.navbar.resources}
               </h3>

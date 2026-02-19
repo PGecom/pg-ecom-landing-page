@@ -1,11 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "../i18n";
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
   const { t } = useTranslation();
 
   const linkSections = [
@@ -44,31 +42,40 @@ export default function Footer() {
 
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-7 gap-8">
           <div className="col-span-2">
             <div className="flex items-center mb-4">
               <Image src="/pgecom-logo-transparent.png" alt="PG Ecom" width={120} height={40} className="h-10 w-auto brightness-0 invert" />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-6 max-w-xs">{t.footer.brandDescription}</p>
+          </div>
 
-            <div>
-              <h4 className="text-sm font-semibold text-white mb-3">{t.footer.stayUpdated}</h4>
-              <form onSubmit={(e) => { e.preventDefault(); setEmail(""); }} className="flex gap-2">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder={t.footer.emailPlaceholder}
-                  className="flex-1 bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
-                />
-                <button type="submit" className="bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors">
-                  {t.footer.subscribe}
-                </button>
-              </form>
+          {/* Products — split into 2 columns */}
+          <div className="col-span-2">
+            <h4 className="text-sm font-semibold text-white mb-4">{t.footer.linkCategories.product}</h4>
+            <div className="grid grid-cols-2 gap-x-4">
+              <ul className="space-y-2.5">
+                {t.footer.links.product.slice(0, Math.ceil(t.footer.links.product.length / 2)).map((link, idx) => (
+                  <li key={link}>
+                    <a href={linkRoutes.product?.[idx] ?? "#"} {...((linkRoutes.product?.[idx] ?? "").startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="text-sm text-gray-400 hover:text-white transition-colors">{link}</a>
+                  </li>
+                ))}
+              </ul>
+              <ul className="space-y-2.5">
+                {t.footer.links.product.slice(Math.ceil(t.footer.links.product.length / 2)).map((link, idx) => {
+                  const actualIdx = idx + Math.ceil(t.footer.links.product.length / 2);
+                  return (
+                    <li key={link}>
+                      <a href={linkRoutes.product?.[actualIdx] ?? "#"} {...((linkRoutes.product?.[actualIdx] ?? "").startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="text-sm text-gray-400 hover:text-white transition-colors">{link}</a>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </div>
 
-          {linkSections.map((section) => (
+          {/* Use Cases, Resources, Legal */}
+          {linkSections.filter((s) => s.key !== "product").map((section) => (
             <div key={section.key}>
               <h4 className="text-sm font-semibold text-white mb-4">{t.footer.linkCategories[section.key]}</h4>
               <ul className="space-y-2.5">

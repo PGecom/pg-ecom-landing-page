@@ -163,10 +163,7 @@ export const fr: Translations = {
     ctaPrimary: "Commencer à émettre",
     ctaSecondary: "Contacter les ventes",
     brandDescription: "La plateforme d'émission de cartes pour les entreprises modernes. Créez, distribuez et gérez des cartes de paiement à grande échelle.",
-    stayUpdated: "Restez informé",
-    emailPlaceholder: "Votre email",
-    subscribe: "S'abonner",
-    copyright: "\u00a9 2024 PGECOM. Tous droits réservés.",
+    copyright: "\u00a9 2026 PGECOM. Tous droits réservés.",
     linkCategories: {
       product: "Produit",
       useCases: "Cas d'utilisation",

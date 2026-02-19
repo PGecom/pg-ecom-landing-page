@@ -163,10 +163,7 @@ export const ht: Translations = {
     ctaPrimary: "Kòmanse kreye kat",
     ctaSecondary: "Kontakte vant",
     brandDescription: "Platfòm emisyon kat pou biznis modèn. Kreye, distribye ak jere kat peman vityèl ak fizik a gran echèl.",
-    stayUpdated: "Rete enfòme",
-    emailPlaceholder: "Imèl ou",
-    subscribe: "Abòne",
-    copyright: "\u00a9 2024 PGECOM. Tout dwa rezève.",
+    copyright: "\u00a9 2026 PGECOM. Tout dwa rezève.",
     linkCategories: {
       product: "Pwodwi",
       useCases: "Ka Itilizasyon",
